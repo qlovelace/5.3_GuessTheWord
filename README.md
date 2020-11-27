@@ -4,4 +4,9 @@ Here you can find tonns of fun and rages on "stupid random"
 
 <h3>GOOD LUCK AND HAVE FUN!</h3>
 
-<h3>Game`s here:</h3> https://dwarfmason.g
+<h3>Game`s here:</h3> https://dwarfmason.github.io/Dragon-Shore/
+
+
+**Our team:**
+
+1. Balashenko Igor (@DwarfMason) - Team leader, ga
