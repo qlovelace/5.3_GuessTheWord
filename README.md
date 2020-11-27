@@ -9,4 +9,5 @@ Here you can find tonns of fun and rages on "stupid random"
 
 **Our team:**
 
-1. Balashenko Igor (@DwarfMason) - Team leader, ga
+1. Balashenko Igor (@DwarfMason) - Team leader, game design, balance, graphics, game logic.
+2. Yury Kurlykov (@t1meshift) - Game engine
