@@ -10,3 +10,8 @@ class Buff {
     effect() {
         return 0;
     }
+}
+
+class Bleed extends Buff {
+    constructor(length, owner) {
+        super("Bleedi
