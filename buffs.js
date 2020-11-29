@@ -14,4 +14,9 @@ class Buff {
 
 class Bleed extends Buff {
     constructor(length, owner) {
-        super("Bleedi
+        super("Bleeding", length, "damaging", "red", owner);
+    }
+
+    effect() {
+        if (this.length > 0) {
+    
