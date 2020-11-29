@@ -19,4 +19,6 @@ class Bleed extends Buff {
 
     effect() {
         if (this.length > 0) {
-    
+            if (this.owner.hp > 1)
+                this.owner.hp--;
+            this.leng
