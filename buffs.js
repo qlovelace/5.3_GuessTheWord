@@ -21,4 +21,10 @@ class Bleed extends Buff {
         if (this.length > 0) {
             if (this.owner.hp > 1)
                 this.owner.hp--;
-            this.leng
+            this.length--;
+            game.pushMessage(`(You are bleeding!){red}`);
+        }
+    }
+}
+
+class marsBl
