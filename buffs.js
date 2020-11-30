@@ -27,4 +27,9 @@ class Bleed extends Buff {
     }
 }
 
-class marsBl
+class marsBless extends Buff {
+    constructor(length, owner) {
+        super("Mars blessed", length, "good", "yellow", owner);
+        if (owner !== null) {
+            this.bonus = 5;
+            this.own
