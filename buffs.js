@@ -32,4 +32,9 @@ class marsBless extends Buff {
         super("Mars blessed", length, "good", "yellow", owner);
         if (owner !== null) {
             this.bonus = 5;
-            this.own
+            this.owner.attackBuff += this.bonus;
+            this.owner.update();
+        }
+    }
+
+    
