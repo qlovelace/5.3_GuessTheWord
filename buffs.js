@@ -37,4 +37,7 @@ class marsBless extends Buff {
         }
     }
 
-    
+    effect() {
+        if (this.length > 0) {
+            this.length--;
+            if (this.length === 0) {
