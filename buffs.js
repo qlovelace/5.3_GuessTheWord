@@ -50,4 +50,6 @@ class marsBless extends Buff {
 
 class Apathy extends Buff {
     constructor(length, owner) {
-        super("
+        super("in a bad mood", length, "evil", "cyan", owner);
+        if (owner !== null) {
+            this.bon
