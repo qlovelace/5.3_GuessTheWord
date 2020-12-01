@@ -41,3 +41,6 @@ class marsBless extends Buff {
         if (this.length > 0) {
             this.length--;
             if (this.length === 0) {
+                this.owner.attackBuff -= this.bonus;
+                this.owner.update();
+         
