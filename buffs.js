@@ -55,4 +55,10 @@ class Apathy extends Buff {
             this.bonus = 3;
             this.owner.agilityBuff -= this.bonus;
             this.owner.update();
-    
+        }
+    }
+
+    effect() {
+        if (this.length > 0) {
+            this.length--;
+            i
