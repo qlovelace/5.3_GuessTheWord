@@ -52,4 +52,7 @@ class Apathy extends Buff {
     constructor(length, owner) {
         super("in a bad mood", length, "evil", "cyan", owner);
         if (owner !== null) {
-            this.bon
+            this.bonus = 3;
+            this.owner.agilityBuff -= this.bonus;
+            this.owner.update();
+    
