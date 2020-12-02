@@ -61,4 +61,6 @@ class Apathy extends Buff {
     effect() {
         if (this.length > 0) {
             this.length--;
-            i
+            if (this.length === 0) {
+                this.owner.attackBuff += this.bonus;
+                
