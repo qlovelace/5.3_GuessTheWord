@@ -63,4 +63,11 @@ class Apathy extends Buff {
             this.length--;
             if (this.length === 0) {
                 this.owner.attackBuff += this.bonus;
-                
+                this.owner.update();
+            }
+        }
+    }
+}
+
+class Heal extends Buff {
+    constru
