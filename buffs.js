@@ -72,4 +72,6 @@ class Apathy extends Buff {
 class Heal extends Buff {
     constructor(length, owner) {
         super("completely healed", length, "good", "green", owner);
-      
+        if (owner !== null) {
+            this.owner.hp = this.owner.maxHP;
+            this.owner.update()
