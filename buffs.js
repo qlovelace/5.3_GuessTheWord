@@ -70,4 +70,6 @@ class Apathy extends Buff {
 }
 
 class Heal extends Buff {
-    constru
+    constructor(length, owner) {
+        super("completely healed", length, "good", "green", owner);
+      
