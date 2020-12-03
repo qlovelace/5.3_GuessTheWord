@@ -74,4 +74,14 @@ class Heal extends Buff {
         super("completely healed", length, "good", "green", owner);
         if (owner !== null) {
             this.owner.hp = this.owner.maxHP;
-            this.owner.update()
+            this.owner.update();
+            this.length = 0;
+        }
+    }
+
+    effect() {
+        return;
+    }
+}
+
+clas
