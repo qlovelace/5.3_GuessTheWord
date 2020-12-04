@@ -84,4 +84,6 @@ class Heal extends Buff {
     }
 }
 
-clas
+class Luck extends Buff {
+    constructor(length, owner) {
+        super("even more rich", length, "good",
