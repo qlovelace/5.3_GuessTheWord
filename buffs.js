@@ -89,4 +89,11 @@ class Luck extends Buff {
         super("even more rich", length, "good", "yellow", owner);
         if (owner !== null) {
             this.owner.gold += 100;
-            this.owner.updat
+            this.owner.update();
+            this.length = 0;
+        }
+    }
+
+    effect() {
+        return;
+    }
