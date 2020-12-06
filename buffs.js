@@ -86,4 +86,7 @@ class Heal extends Buff {
 
 class Luck extends Buff {
     constructor(length, owner) {
-        super("even more rich", length, "good",
+        super("even more rich", length, "good", "yellow", owner);
+        if (owner !== null) {
+            this.owner.gold += 100;
+            this.owner.updat
