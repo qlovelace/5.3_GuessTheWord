@@ -101,4 +101,6 @@ class Luck extends Buff {
 
 class WrathOfSeth extends Buff {
     constructor(length, owner) {
-        super("feeling the wrath",
+        super("feeling the wrath", length, "good", "red", owner);
+        if (owner !== null) {
+            this.savedHP = t
