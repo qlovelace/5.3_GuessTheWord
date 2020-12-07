@@ -97,3 +97,8 @@ class Luck extends Buff {
     effect() {
         return;
     }
+}
+
+class WrathOfSeth extends Buff {
+    constructor(length, owner) {
+        super("feeling the wrath",
