@@ -103,4 +103,7 @@ class WrathOfSeth extends Buff {
     constructor(length, owner) {
         super("feeling the wrath", length, "good", "red", owner);
         if (owner !== null) {
-            this.savedHP = t
+            this.savedHP = this.owner.hp;
+            this.bonus = 5;
+            this.owner.attackBuff += this.bonus;
+  
