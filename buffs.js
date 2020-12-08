@@ -106,4 +106,8 @@ class WrathOfSeth extends Buff {
             this.savedHP = this.owner.hp;
             this.bonus = 5;
             this.owner.attackBuff += this.bonus;
-  
+            this.owner.update();
+        }
+    }
+    effect() {
+        if (this.length >
