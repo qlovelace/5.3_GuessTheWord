@@ -119,4 +119,10 @@ class WrathOfSeth extends Buff {
                 this.owner.update();
             }
         }
-    
+    }
+}
+
+buffs = [
+    new Bleed(null, null),
+    new marsBless(null, null),
+    new Apathy(nul
