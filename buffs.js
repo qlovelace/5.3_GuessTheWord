@@ -125,4 +125,7 @@ class WrathOfSeth extends Buff {
 buffs = [
     new Bleed(null, null),
     new marsBless(null, null),
-    new Apathy(nul
+    new Apathy(null, null),
+    new Heal(null, null),
+    new Luck(null, null),
+    new WrathOfSeth(null, null),
