@@ -129,3 +129,4 @@ buffs = [
     new Heal(null, null),
     new Luck(null, null),
     new WrathOfSeth(null, null),
+];
