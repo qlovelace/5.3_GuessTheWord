@@ -233,3 +233,97 @@ class Minotaur extends Mob {
         super(77);
         this.name = "Blind minotaur";
         this.strength = rollDice(6, 3) + 30 + Math.floor(Math.random() * Math.floor(depth / 2));
+        this.agility = rollDice(6, 3) - 5 + Math.floor(Math.random() * Math.floor(depth / 2));
+        this.endurance = rollDice(6, 3) + 5 + Math.floor(Math.random() * Math.floor(depth / 2));
+        this.attack = Math.floor(this.strength / 10);
+        this.x = startX;
+        this.y = startY;
+        this.hp = Math.floor(this.endurance / 10) + 4;
+        this.initiative = this.agility / 10 + 5;
+        this.gold = Math.floor(Math.random() * 100) + 40;
+        this.weapon = weapons[weaponID];
+        this.armor = armor[armorID];
+        this.color = "brown";
+    }
+
+    move(map) {
+        let lastx = this.x;
+        let lasty = this.y;
+        let dir = Math.floor(Math.random() * 4);
+        switch (dir) {
+            case 0:
+                if (map[this.y - 1][this.x].isMovable) {
+                    this.y--;
+                    break;
+                }
+                else
+                    dir++;
+
+            case 1:
+                if (map[this.y + 1][this.x].isMovable) {
+                    this.y++;
+                    break;
+                }
+                else
+                    dir++;
+
+            case 2:
+                if (map[this.y][this.x - 1].isMovable) {
+                    this.x--;
+                    break;
+                }
+                else
+                    dir++;
+
+            case 3:
+                if (map[this.y][this.x + 1].isMovable) {
+                    this.x++;
+                    break;
+                }
+                else
+                    dir++;
+        }
+        return [lastx, lasty];
+    }
+}
+
+class SewerRat extends Mob {
+    constructor(startX, startY, weaponID, armorID) {
+        super(82);
+        this.name = "Sewer rat";
+        this.strength = rollDice(6, 3) - 5;
+        this.agility = rollDice(6, 3) + 5;
+        this.endurance = rollDice(6, 2);
+        this.attack = Math.floor(this.strength / 10);
+        this.x = startX;
+        this.y = startY;
+        this.hp = Math.floor(this.endurance / 10) + 4;
+        this.initiative = this.agility / 10 + 5;
+        this.gold = Math.floor(Math.random() * (10 + depth)) + 1 + depth;
+        this.weapon = weapons[weaponID];
+        this.armor = armor[armorID];
+        this.color = "grey";
+    }
+
+    move(map) {
+        let lastx = this.x;
+        let lasty = this.y;
+        if (this.rightUp === 1) {
+            if (!map[this.y - 1][this.x + 1].isMovable) {
+                this.rightUp = 0;
+            } else {
+                this.y--;
+                this.x++;
+            }
+        } else {
+            if (!map[this.y + 1][this.x - 1].isMovable) {
+                this.rightUp = 1;
+            } else {
+                this.y++;
+                this.x--;
+            }
+        }
+        return [lastx, lasty];
+    }
+}
+let mainHero = null;
