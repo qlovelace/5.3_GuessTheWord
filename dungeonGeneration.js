@@ -2,4 +2,7 @@
 let floor = new Floor();
 
 dungeonGeneration = (()=>{
-    let object
+    let objects = [];
+    function generateCave(dungeonDifficulty) {
+        objects = [mainHero];
+ 
