@@ -5,4 +5,5 @@ dungeonGeneration = (()=>{
     let objects = [];
     function generateCave(dungeonDifficulty) {
         objects = [mainHero];
- 
+        let dungeonHeight = Math.floor((1+Math.random())*30);
+        let dungeonWidth = Math.floor((1+Math.random
