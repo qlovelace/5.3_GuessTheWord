@@ -10,4 +10,7 @@ dungeonGeneration = (()=>{
 
         let map = new Array(dungeonHeight);
         for (let i = 0; i < dungeonHeight; i++) {
-  
+            map[i] = new Array(dungeonWidth);
+        }
+
+        for (let i = 0; i < d
