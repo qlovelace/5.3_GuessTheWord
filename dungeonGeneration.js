@@ -15,4 +15,6 @@ dungeonGeneration = (()=>{
 
         for (let i = 0; i < dungeonHeight; i++)
             for (let j = 0; j < dungeonWidth; j++)
-                map[i][j] = new
+                map[i][j] = new Wall();
+
+        let startX = Math.floor(Math.random() * (dungeonWid
