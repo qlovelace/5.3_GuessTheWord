@@ -17,4 +17,6 @@ dungeonGeneration = (()=>{
             for (let j = 0; j < dungeonWidth; j++)
                 map[i][j] = new Wall();
 
-        let startX = Math.floor(Math.random() * (dungeonWid
+        let startX = Math.floor(Math.random() * (dungeonWidth-2))+1;
+        let startY = Math.floor(Math.random() * (dungeonHeight-2))+1;
+        let exit
