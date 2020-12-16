@@ -19,4 +19,6 @@ dungeonGeneration = (()=>{
 
         let startX = Math.floor(Math.random() * (dungeonWidth-2))+1;
         let startY = Math.floor(Math.random() * (dungeonHeight-2))+1;
-        let exit
+        let exitX = 0;
+        let exitY = 0;
+        let maxFloorTiles = dungeonHeight*dungeonWidth
