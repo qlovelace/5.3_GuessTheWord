@@ -21,4 +21,10 @@ dungeonGeneration = (()=>{
         let startY = Math.floor(Math.random() * (dungeonHeight-2))+1;
         let exitX = 0;
         let exitY = 0;
-        let maxFloorTiles = dungeonHeight*dungeonWidth
+        let maxFloorTiles = dungeonHeight*dungeonWidth / 10;
+        let floorTilesCount = 0;
+
+        map[startY][startX] = new StartPoint();
+
+
+   
