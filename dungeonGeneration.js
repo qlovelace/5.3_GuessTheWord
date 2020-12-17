@@ -33,4 +33,7 @@ dungeonGeneration = (()=>{
             floorTilesCount = 0;
             while (floorTilesCount < maxFloorTiles) {
 
-                let directio
+                let direction = Math.floor(Math.random() * 4);
+
+                switch (direction) {
+                   
