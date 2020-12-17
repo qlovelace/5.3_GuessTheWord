@@ -36,4 +36,7 @@ dungeonGeneration = (()=>{
                 let direction = Math.floor(Math.random() * 4);
 
                 switch (direction) {
-                   
+                    case 0:
+                        if (currentX - 2 >= 0) {
+                            currentX--;
+   
