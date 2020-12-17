@@ -30,4 +30,7 @@ dungeonGeneration = (()=>{
         for (let i = 0; i < 4; i++) {
             let currentX = startX;
             let currentY = startY;
-           
+            floorTilesCount = 0;
+            while (floorTilesCount < maxFloorTiles) {
+
+                let directio
