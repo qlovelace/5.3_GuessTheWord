@@ -27,4 +27,7 @@ dungeonGeneration = (()=>{
         map[startY][startX] = new StartPoint();
 
 
-   
+        for (let i = 0; i < 4; i++) {
+            let currentX = startX;
+            let currentY = startY;
+           
