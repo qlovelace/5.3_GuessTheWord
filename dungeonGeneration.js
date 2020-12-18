@@ -43,4 +43,7 @@ dungeonGeneration = (()=>{
                                 map[currentY][currentX] = new Floor();
                                 floorTilesCount++;
                             }
-                 
+                        }
+                        break;
+                    case 1:
+                        if
