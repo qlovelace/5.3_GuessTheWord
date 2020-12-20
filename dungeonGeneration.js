@@ -48,4 +48,4 @@ dungeonGeneration = (()=>{
                     case 1:
                         if (currentX + 2 < dungeonWidth) {
                             currentX++;
-                          
+                            if (!(map[currentY][currentX] instanceof Floor) && !(map[currentY][currentX] instanceof
