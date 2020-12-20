@@ -46,4 +46,6 @@ dungeonGeneration = (()=>{
                         }
                         break;
                     case 1:
-                        if
+                        if (currentX + 2 < dungeonWidth) {
+                            currentX++;
+                          
