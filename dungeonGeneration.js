@@ -53,4 +53,6 @@ dungeonGeneration = (()=>{
                                 floorTilesCount++;
                             }
                         }
-             
+                        break;
+                    case 2:
+                        if (currentY - 2 >= 0) 
