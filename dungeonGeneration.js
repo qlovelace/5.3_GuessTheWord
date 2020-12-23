@@ -55,4 +55,6 @@ dungeonGeneration = (()=>{
                         }
                         break;
                     case 2:
-                        if (currentY - 2 >= 0) 
+                        if (currentY - 2 >= 0) {
+                            currentY--;
+                            if (!(map[currentY][currentX] 
