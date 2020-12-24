@@ -58,4 +58,5 @@ dungeonGeneration = (()=>{
                         if (currentY - 2 >= 0) {
                             currentY--;
                             if (!(map[currentY][currentX] instanceof Floor) && !(map[currentY][currentX] instanceof StartPoint)) {
-                         
+                                map[currentY][currentX] = new Floor();
+                                f
