@@ -65,4 +65,5 @@ dungeonGeneration = (()=>{
                         break;
                     case 3:
                         if (currentY + 2 < dungeonHeight) {
-       
+                            currentY++;
+                            if (!(map[currentY][currentX] 
