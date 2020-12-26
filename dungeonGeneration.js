@@ -66,4 +66,5 @@ dungeonGeneration = (()=>{
                     case 3:
                         if (currentY + 2 < dungeonHeight) {
                             currentY++;
-                            if (!(map[currentY][currentX] 
+                            if (!(map[currentY][currentX] instanceof Floor) && !(map[currentY][currentX] instanceof StartPoint)) {
+                             
