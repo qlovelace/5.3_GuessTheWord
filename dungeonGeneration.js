@@ -76,4 +76,10 @@ dungeonGeneration = (()=>{
             }
             if (i === 3){
                 exitX = currentX;
-                exitY = curre
+                exitY = currentY;
+            }
+        }
+
+        map[exitY][exitX] = new EndPoint();
+
+        fun
