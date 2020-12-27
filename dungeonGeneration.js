@@ -72,4 +72,8 @@ dungeonGeneration = (()=>{
                             }
                         }
                         break;
-                
+                }
+            }
+            if (i === 3){
+                exitX = currentX;
+                exitY = curre
