@@ -82,4 +82,8 @@ dungeonGeneration = (()=>{
 
         map[exitY][exitX] = new EndPoint();
 
-        fun
+        function inRange(a, _start, end_) {
+            return a > _start && a < end_;
+        }
+
+        function addEnemy
