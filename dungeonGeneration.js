@@ -86,4 +86,7 @@ dungeonGeneration = (()=>{
             return a > _start && a < end_;
         }
 
-        function addEnemy
+        function addEnemy(count){
+            let enemyCount = 0;
+            while (enemyCount < count){
+           
