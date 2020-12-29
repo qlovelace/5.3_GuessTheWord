@@ -90,4 +90,5 @@ dungeonGeneration = (()=>{
             let enemyCount = 0;
             while (enemyCount < count){
                 let tryX = Math.floor(Math.random() * (dungeonWidth - 2))+1;
-                let tryY = 
+                let tryY = Math.floor(Math.random() * (dungeonHeight - 2))+1;
+                let weaponID = Math.floor(Math
