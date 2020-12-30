@@ -93,4 +93,6 @@ dungeonGeneration = (()=>{
                 let tryY = Math.floor(Math.random() * (dungeonHeight - 2))+1;
                 let weaponID = Math.floor(Math.random()*Math.min(depth, weapons.length));
                 let armorID = Math.floor(Math.random()*Math.min(depth, armor.length));
-                if (map[tryY][tryX] instanceof 
+                if (map[tryY][tryX] instanceof Floor){
+                    let mobNum = Math.min(rollDice(50,1) + depth, 96);
+        
