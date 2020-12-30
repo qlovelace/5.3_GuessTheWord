@@ -92,4 +92,5 @@ dungeonGeneration = (()=>{
                 let tryX = Math.floor(Math.random() * (dungeonWidth - 2))+1;
                 let tryY = Math.floor(Math.random() * (dungeonHeight - 2))+1;
                 let weaponID = Math.floor(Math.random()*Math.min(depth, weapons.length));
-                let armorID = Math.floor
+                let armorID = Math.floor(Math.random()*Math.min(depth, armor.length));
+                if (map[tryY][tryX] instanceof 
