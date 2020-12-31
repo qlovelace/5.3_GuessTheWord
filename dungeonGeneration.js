@@ -96,4 +96,6 @@ dungeonGeneration = (()=>{
                 if (map[tryY][tryX] instanceof Floor){
                     let mobNum = Math.min(rollDice(50,1) + depth, 96);
                     switch (true){
-                        case inRange(mobNum, -1, 25): objects
+                        case inRange(mobNum, -1, 25): objects.push(new SewerRat(tryX, tryY,weaponID, armorID));
+                                break;
+                        case
