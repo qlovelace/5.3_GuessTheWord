@@ -95,4 +95,5 @@ dungeonGeneration = (()=>{
                 let armorID = Math.floor(Math.random()*Math.min(depth, armor.length));
                 if (map[tryY][tryX] instanceof Floor){
                     let mobNum = Math.min(rollDice(50,1) + depth, 96);
-        
+                    switch (true){
+                        case inRange(mobNum, -1, 25): objects
