@@ -98,4 +98,6 @@ dungeonGeneration = (()=>{
                     switch (true){
                         case inRange(mobNum, -1, 25): objects.push(new SewerRat(tryX, tryY,weaponID, armorID));
                                 break;
-                        case
+                        case inRange(mobNum, 24, 48): objects.push(new Kobold(tryX,tryY, weaponID, armorID));
+								break;
+                     
