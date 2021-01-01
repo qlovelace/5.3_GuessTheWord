@@ -102,4 +102,6 @@ dungeonGeneration = (()=>{
 								break;
                         case inRange(mobNum, 47, 80): objects.push(new Orc(tryX,tryY, weaponID, armorID));
 								break;
-                        case inRange(mobNum, 79, 96): objects.push(new Gargoyle(tryX,tryY, we
+                        case inRange(mobNum, 79, 96): objects.push(new Gargoyle(tryX,tryY, weaponID, armorID));
+                            break;
+                        case inRange(mobNu
