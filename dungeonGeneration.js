@@ -108,4 +108,9 @@ dungeonGeneration = (()=>{
                                 break;
                     }
                     enemyCount++;
-         
+                }
+            }
+        }
+
+        function addShrines(count){
+            let shrinesLeft =
