@@ -115,4 +115,5 @@ dungeonGeneration = (()=>{
         function addShrines(count){
             let shrinesLeft = count;
             while (shrinesLeft !== 0){
-                let tryX = Math.floor(Math.random() * (dungeonWi
+                let tryX = Math.floor(Math.random() * (dungeonWidth - 2))+1;
+                let tryY = Math.floor(Math.random() * (dungeonHei
