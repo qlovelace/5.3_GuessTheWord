@@ -118,4 +118,10 @@ dungeonGeneration = (()=>{
                 let tryX = Math.floor(Math.random() * (dungeonWidth - 2))+1;
                 let tryY = Math.floor(Math.random() * (dungeonHeight - 2))+1;
                 if (map[tryY][tryX] instanceof Floor){
-                    map[tryY][tr
+                    map[tryY][tryX] = new Shrine();
+                    shrinesLeft --;
+                }
+            }
+        }
+
+        
