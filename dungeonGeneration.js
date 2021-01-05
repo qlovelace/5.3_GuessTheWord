@@ -124,4 +124,4 @@ dungeonGeneration = (()=>{
             }
         }
 
-        
+        addEnemy(Math.min(Math.floor(depth * (3 + dungeonDifficulty * Math.random()) * (Math.floor(Math.
