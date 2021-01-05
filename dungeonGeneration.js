@@ -131,4 +131,9 @@ dungeonGeneration = (()=>{
     }
 
 
-    function generateObjects() 
+    function generateObjects() {
+        //first object is personage
+        return objects;
+    }
+    return {
+        genera
