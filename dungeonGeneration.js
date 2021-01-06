@@ -136,4 +136,8 @@ dungeonGeneration = (()=>{
         return objects;
     }
     return {
-        genera
+        generateCave: generateCave,
+        generateObjects: generateObjects
+    }
+
+})();
