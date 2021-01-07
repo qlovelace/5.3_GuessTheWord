@@ -16,4 +16,9 @@ class Scene {
         this.ctx = canvas.getContext("2d");
         this.state = null;
         this.eventList = {};
-        this.ctx.imageSmoothi
+        this.ctx.imageSmoothingEnabled = false;
+    }
+
+    setState(state) {
+        //remove old handlers
+        for (let oldEvent in this.even
