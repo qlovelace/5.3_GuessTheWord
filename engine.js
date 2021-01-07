@@ -13,4 +13,7 @@ let depth = 1;
 
 class Scene {
     constructor(canvas) {
-        this.ctx = canvas.getCo
+        this.ctx = canvas.getContext("2d");
+        this.state = null;
+        this.eventList = {};
+        this.ctx.imageSmoothi
