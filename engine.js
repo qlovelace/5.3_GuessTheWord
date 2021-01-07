@@ -21,4 +21,6 @@ class Scene {
 
     setState(state) {
         //remove old handlers
-        for (let oldEvent in this.even
+        for (let oldEvent in this.eventList) {
+            console.log("Remove old handlers", oldEvent, this.eventList[oldEvent]);
+            if
