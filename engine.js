@@ -28,4 +28,7 @@ class Scene {
             }
         }
         this.eventList = {};
- 
+        //and set new
+        this.state = state;
+        let events = this.state.events;
+        for 
