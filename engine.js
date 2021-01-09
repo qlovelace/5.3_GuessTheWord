@@ -24,4 +24,8 @@ class Scene {
         for (let oldEvent in this.eventList) {
             console.log("Remove old handlers", oldEvent, this.eventList[oldEvent]);
             if (this.eventList.hasOwnProperty(oldEvent) && this.eventList[oldEvent] !== null) {
-                window.re
+                window.removeEventListener(oldEvent, this.eventList[oldEvent]);
+            }
+        }
+        this.eventList = {};
+ 
