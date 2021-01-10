@@ -33,4 +33,5 @@ class Scene {
         let events = this.state.events;
         for (let event in events) {
             console.log("Add new handlers", event, events[event]);
-  
+            if (events.hasOwnProperty(event) && events[event] !== null) {
+                this.event
