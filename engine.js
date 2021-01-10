@@ -31,4 +31,6 @@ class Scene {
         //and set new
         this.state = state;
         let events = this.state.events;
-        for 
+        for (let event in events) {
+            console.log("Add new handlers", event, events[event]);
+  
