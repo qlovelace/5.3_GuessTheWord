@@ -37,4 +37,10 @@ class Scene {
                 this.eventList[event] = e => {
                     events[event].call(this.state, this, e);
                 };
-       
+                window.addEventListener(event, this.eventList[event]);
+            }
+        }
+    }
+
+    getState() {
+        retu
