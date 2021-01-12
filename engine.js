@@ -43,4 +43,12 @@ class Scene {
     }
 
     getState() {
-        retu
+        return this.state;
+    }
+
+    update() {
+        this.state.update(this.ctx);
+    }
+}
+
+class State {
