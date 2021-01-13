@@ -52,3 +52,16 @@ class Scene {
 }
 
 class State {
+    constructor() {
+    }
+
+    get events() {
+        return {};
+    }
+
+    update(context) {
+
+    }
+}
+
+c
