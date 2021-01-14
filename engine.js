@@ -75,4 +75,10 @@ class CreditsState extends State {
     }
 
     get events() {
-     
+        return {
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        conte
