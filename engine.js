@@ -70,3 +70,9 @@ class CreditsState extends State {
     }
 
     keyHandler(scene, event) {
+        scene.setState(menu);
+        scene.update();
+    }
+
+    get events() {
+     
