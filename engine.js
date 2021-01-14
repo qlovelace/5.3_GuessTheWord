@@ -64,4 +64,9 @@ class State {
     }
 }
 
-c
+class CreditsState extends State {
+    constructor() {
+        super();
+    }
+
+    keyHandler(scene, event) {
