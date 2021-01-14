@@ -81,4 +81,6 @@ class CreditsState extends State {
     }
 
     update(context) {
-        conte
+        context.clearRect(0, 0, 1000, 650);
+        context.fillStyle = "white";
+        context.font = "48px manaspc";
