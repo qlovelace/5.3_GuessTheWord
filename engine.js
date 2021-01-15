@@ -87,4 +87,9 @@ class CreditsState extends State {
         context.textAlign = "center";
         context.fillText("Credits", 470, 40);
         context.font = "36px manaspc";
-        context.fillText("Press any key to continue...",
+        context.fillText("Press any key to continue...", 470, 580);
+
+        context.textAlign = "left";
+        context.font = "24px manaspc";
+
+        c
