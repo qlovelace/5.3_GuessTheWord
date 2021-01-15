@@ -84,3 +84,6 @@ class CreditsState extends State {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
         context.font = "48px manaspc";
+        context.textAlign = "center";
+        context.fillText("Credits", 470, 40);
+     
