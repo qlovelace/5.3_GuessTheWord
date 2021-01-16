@@ -100,4 +100,8 @@ class CreditsState extends State {
     }
 }
 
-class SettingsState
+class SettingsState extends State{
+    constructor(){
+        super();
+        //MAX tileSetList == 10
+        s
