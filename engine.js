@@ -95,4 +95,9 @@ class CreditsState extends State {
         context.fillText("Made by:", 10, 65);
         context.fillText("Balashenko Igor (DwarfMason)", 10, 100);
         context.fillText("Yury Kurlykov (t1meshift)", 10, 130);
-        context.fillTex
+        context.fillText("Andrey Osadchii (smgks)", 10, 160);
+        super.update(context);
+    }
+}
+
+class SettingsState
