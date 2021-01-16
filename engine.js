@@ -92,4 +92,6 @@ class CreditsState extends State {
         context.textAlign = "left";
         context.font = "24px manaspc";
 
-        c
+        context.fillText("Made by:", 10, 65);
+        context.fillText("Balashenko Igor (DwarfMason)", 10, 100);
+   
