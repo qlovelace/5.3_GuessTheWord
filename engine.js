@@ -104,4 +104,8 @@ class SettingsState extends State{
     constructor(){
         super();
         //MAX tileSetList == 10
-        s
+        self.tileSetList = ["standart tileset", "futuristic tileset",];
+        self.menuPos = 0
+
+    }
+    u
