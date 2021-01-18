@@ -111,4 +111,8 @@ class SettingsState extends State{
     update(context){
         context.clearRect(0, 0, 1000, 650);
 
-        context.drawImage(dragon,36,12
+        context.drawImage(dragon,36,120);
+        context.drawImage(dragonLable,203,0);
+
+        context.fillStyle = "white";
+        contex
