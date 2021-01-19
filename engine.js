@@ -115,4 +115,7 @@ class SettingsState extends State{
         context.drawImage(dragonLable,203,0);
 
         context.fillStyle = "white";
-        contex
+        context.font = "24px manaspc";
+
+        for (let i = 0; i < self.tileSetList.length; ++i) {
+            if(i === TILE_
