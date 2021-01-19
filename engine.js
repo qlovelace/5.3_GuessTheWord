@@ -121,4 +121,6 @@ class SettingsState extends State{
             if(i === TILE_SET.getCurrentTileIndex())
                 context.fillStyle = "blue";
             else
-                context.fillSty
+                context.fillStyle = "white";
+            context.fillText(self.tileSetList[i], 600, 160 + i * 50);
+       
