@@ -118,4 +118,7 @@ class SettingsState extends State{
         context.font = "24px manaspc";
 
         for (let i = 0; i < self.tileSetList.length; ++i) {
-            if(i === TILE_
+            if(i === TILE_SET.getCurrentTileIndex())
+                context.fillStyle = "blue";
+            else
+                context.fillSty
