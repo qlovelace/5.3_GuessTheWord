@@ -123,4 +123,8 @@ class SettingsState extends State{
             else
                 context.fillStyle = "white";
             context.fillText(self.tileSetList[i], 600, 160 + i * 50);
-       
+        }
+        context.drawImage(sword,490,128 + self.menuPos*50);
+        super.update(context);
+    }
+    keyHan
