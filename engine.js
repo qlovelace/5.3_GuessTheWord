@@ -127,4 +127,7 @@ class SettingsState extends State{
         context.drawImage(sword,490,128 + self.menuPos*50);
         super.update(context);
     }
-    keyHan
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+            case 27: //esc
+         
