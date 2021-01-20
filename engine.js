@@ -130,4 +130,7 @@ class SettingsState extends State{
     keyHandler(scene, event) {
         switch (event.keyCode) {
             case 27: //esc
-         
+                scene.setState(menu);
+                break;
+            case 40: // arrowdown
+            
