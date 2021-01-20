@@ -133,4 +133,5 @@ class SettingsState extends State{
                 scene.setState(menu);
                 break;
             case 40: // arrowdown
-            
+                if(self.menuPos < (self.tileSetList.length-1))
+                    
