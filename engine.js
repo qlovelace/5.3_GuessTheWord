@@ -134,4 +134,7 @@ class SettingsState extends State{
                 break;
             case 40: // arrowdown
                 if(self.menuPos < (self.tileSetList.length-1))
-                    
+                    self.menuPos++;
+                break;
+            case 38: // arrowup
+                if(self.me
