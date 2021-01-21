@@ -137,4 +137,8 @@ class SettingsState extends State{
                     self.menuPos++;
                 break;
             case 38: // arrowup
-                if(self.me
+                if(self.menuPos >= 1)
+                    self.menuPos--;
+                break;
+            case 13: // enter
+                
