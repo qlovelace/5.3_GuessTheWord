@@ -141,4 +141,7 @@ class SettingsState extends State{
                     self.menuPos--;
                 break;
             case 13: // enter
-                
+                TILE_SET.changeTileSet(self.menuPos);
+                break;
+            case 32: // space
+      
