@@ -147,4 +147,11 @@ class SettingsState extends State{
                 TILE_SET.changeTileSet(self.menuPos);
                 break;
         }
-      
+        scene.update();
+    }
+
+    get events() {
+        return {
+            keydown: this.keyHandler,
+        }
+    }
