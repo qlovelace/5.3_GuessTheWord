@@ -155,3 +155,11 @@ class SettingsState extends State{
             keydown: this.keyHandler,
         }
     }
+}
+
+class HelpState extends State {
+    constructor() {
+        super();
+    }
+
+    keyHandler(scen
