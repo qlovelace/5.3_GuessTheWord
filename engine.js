@@ -162,4 +162,9 @@ class HelpState extends State {
         super();
     }
 
-    keyHandler(scen
+    keyHandler(scene, event) {
+        scene.setState(game);
+        scene.update();
+    }
+
+    get events() {
