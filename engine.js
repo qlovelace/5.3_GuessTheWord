@@ -168,3 +168,10 @@ class HelpState extends State {
     }
 
     get events() {
+        return {
+            keydown: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        conte
