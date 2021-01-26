@@ -179,4 +179,7 @@ class HelpState extends State {
         context.font = "48px manaspc";
         context.textAlign = "center";
         context.fillText("Help", 470, 40);
-        context.fon
+        context.font = "36px manaspc";
+        context.fillText("Press any key to continue...", 470, 580);
+
+        cont
