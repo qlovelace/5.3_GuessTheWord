@@ -185,4 +185,7 @@ class HelpState extends State {
         context.textAlign = "left";
         context.font = "24px manaspc";
 
-        context.fillText("Ke
+        context.fillText("Key bindings:", 10, 65);
+
+        context.fillText("Arrows - movement", 10, 100);
+        context.fill
