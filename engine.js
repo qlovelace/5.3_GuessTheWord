@@ -188,4 +188,6 @@ class HelpState extends State {
         context.fillText("Key bindings:", 10, 65);
 
         context.fillText("Arrows - movement", 10, 100);
-        context.fill
+        context.fillText("o - skip turn", 10, 130);
+        context.fillText("h - health potion", 10, 160);
+        con
