@@ -191,4 +191,6 @@ class HelpState extends State {
         context.fillText("o - skip turn", 10, 130);
         context.fillText("h - health potion", 10, 160);
         context.fillText("m - mana potion", 10, 190);
-        context.fillText("'space' - cast spe
+        context.fillText("'space' - cast spell", 10, 220);
+        context.fillText(". - descend (works on ladders)", 10, 250);
+      
