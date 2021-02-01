@@ -195,4 +195,7 @@ class HelpState extends State {
         context.fillText(". - descend (works on ladders)", 10, 250);
         context.fillText("? - help", 10, 280);
         context.fillText("d - character", 10, 310);
-        co
+        context.fillText("s - shop", 10, 340);
+        context.fillText("p(near shrines) - prey", 10, 370);
+
+   
