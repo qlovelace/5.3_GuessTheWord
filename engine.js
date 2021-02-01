@@ -198,4 +198,10 @@ class HelpState extends State {
         context.fillText("s - shop", 10, 340);
         context.fillText("p(near shrines) - prey", 10, 370);
 
-   
+        super.update(context);
+    }
+}
+
+class DescriptionState extends State {
+    constructor() {
+        su
