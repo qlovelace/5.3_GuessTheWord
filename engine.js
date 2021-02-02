@@ -204,4 +204,7 @@ class HelpState extends State {
 
 class DescriptionState extends State {
     constructor() {
-        su
+        super();
+        this.isWeapon  = false;
+        this.isArmor = false;
+        this.
