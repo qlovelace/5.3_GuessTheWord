@@ -207,4 +207,9 @@ class DescriptionState extends State {
         super();
         this.isWeapon  = false;
         this.isArmor = false;
-        this.
+        this.isMagic = false;
+    }
+
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+    
