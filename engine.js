@@ -212,4 +212,8 @@ class DescriptionState extends State {
 
     keyHandler(scene, event) {
         switch (event.keyCode) {
+            case 13:
+                scene.setState(game);
+                break;
+            case 87: // w - weapon
     
