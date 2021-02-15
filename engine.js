@@ -216,4 +216,7 @@ class DescriptionState extends State {
                 scene.setState(game);
                 break;
             case 87: // w - weapon
+                this.isWeapon = true;
+                break;
+            case 65: // a - armor
     
