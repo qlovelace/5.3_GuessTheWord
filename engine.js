@@ -229,4 +229,10 @@ class DescriptionState extends State {
 
     get events() {
         return {
-            keyup: this.
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        context.clearRect(0, 0, 1000, 650);
+        co
