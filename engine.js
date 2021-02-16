@@ -222,4 +222,11 @@ class DescriptionState extends State {
                 this.isArmor = true;
                 break;
             case 77: // m - magic
-                t
+                this.isMagic = true;
+        }
+        scene.update();
+    }
+
+    get events() {
+        return {
+            keyup: this.
