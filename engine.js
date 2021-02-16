@@ -235,4 +235,6 @@ class DescriptionState extends State {
 
     update(context) {
         context.clearRect(0, 0, 1000, 650);
-        co
+        context.fillStyle = "white";
+        context.font = "48px manaspc";
+        context.textA
