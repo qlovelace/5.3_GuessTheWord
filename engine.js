@@ -219,4 +219,7 @@ class DescriptionState extends State {
                 this.isWeapon = true;
                 break;
             case 65: // a - armor
-    
+                this.isArmor = true;
+                break;
+            case 77: // m - magic
+                t
