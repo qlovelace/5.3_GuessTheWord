@@ -237,4 +237,6 @@ class DescriptionState extends State {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
         context.font = "48px manaspc";
-        context.textA
+        context.textAlign = "center";
+        context.fillText("Items description", 470, 40);
+        context.font = "36px manasp
