@@ -239,4 +239,6 @@ class DescriptionState extends State {
         context.font = "48px manaspc";
         context.textAlign = "center";
         context.fillText("Items description", 470, 40);
-        context.font = "36px manasp
+        context.font = "36px manaspc";
+        context.fillText("Press given keys to get description", 470, 580);
+        context.fillText("Press Enter to e
