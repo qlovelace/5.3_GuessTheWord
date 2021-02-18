@@ -247,4 +247,5 @@ class DescriptionState extends State {
         context.font = "24px manaspc";
 
         context.fillText(`w - ${mainHero.weapon.name} description`, 10, 100);
-        context.fillText(`a - ${main
+        context.fillText(`a - ${mainHero.armor.name} description`, 10, 130);
+        context.fillText(`m - ${mainHero.magic.name} des
