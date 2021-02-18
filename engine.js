@@ -241,4 +241,9 @@ class DescriptionState extends State {
         context.fillText("Items description", 470, 40);
         context.font = "36px manaspc";
         context.fillText("Press given keys to get description", 470, 580);
-        context.fillText("Press Enter to e
+        context.fillText("Press Enter to exit", 470, 625);
+
+        context.textAlign = "left";
+        context.font = "24px manaspc";
+
+        context.fill
