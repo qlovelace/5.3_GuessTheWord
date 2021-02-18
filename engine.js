@@ -246,4 +246,5 @@ class DescriptionState extends State {
         context.textAlign = "left";
         context.font = "24px manaspc";
 
-        context.fill
+        context.fillText(`w - ${mainHero.weapon.name} description`, 10, 100);
+        context.fillText(`a - ${main
