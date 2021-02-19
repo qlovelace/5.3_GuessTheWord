@@ -248,4 +248,7 @@ class DescriptionState extends State {
 
         context.fillText(`w - ${mainHero.weapon.name} description`, 10, 100);
         context.fillText(`a - ${mainHero.armor.name} description`, 10, 130);
-        context.fillText(`m - ${mainHero.magic.name} des
+        context.fillText(`m - ${mainHero.magic.name} description`, 10, 160);
+
+        context.fillText(`Your character: ${mainHero.name}`, 525, 100);
+        con
