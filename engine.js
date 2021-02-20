@@ -258,4 +258,6 @@ class DescriptionState extends State {
         context.fillText(`Intelligence: ${mainHero.intelligence}`, 525, 250);
 
         if(this.isArmor){
-           
+            context.font = "24px manaspc";
+            context.fillStyle = "yellow";
+            context.fillText(`${mainHero.armo
