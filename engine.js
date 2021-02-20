@@ -255,4 +255,7 @@ class DescriptionState extends State {
         context.fillText(`Agility: ${mainHero.agility}`, 525, 160);
         context.fillText(`Initiative: ${mainHero.initiative} `, 525, 190);
         context.fillText(`Endurance: ${mainHero.endurance}`, 530, 220);
-        context.fillTex
+        context.fillText(`Intelligence: ${mainHero.intelligence}`, 525, 250);
+
+        if(this.isArmor){
+           
