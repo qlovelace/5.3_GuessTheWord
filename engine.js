@@ -265,4 +265,6 @@ class DescriptionState extends State {
             this.isArmor = !this.isArmor;
         }
 
-       
+        if(this.isWeapon){
+            context.font = "24px manaspc";
+            context.fillStyl
