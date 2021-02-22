@@ -269,4 +269,8 @@ class DescriptionState extends State {
             context.font = "24px manaspc";
             context.fillStyle = "yellow";
             context.fillText(`${mainHero.weapon.name} - ${mainHero.weapon.description}`, 10, 450);
-            context.fillText(`It has tier ${mainHero.weap
+            context.fillText(`It has tier ${mainHero.weapon.tier}`, 10, 480);
+            this.isWeapon = !this.isWeapon;
+        }
+
+        if(this
