@@ -273,4 +273,7 @@ class DescriptionState extends State {
             this.isWeapon = !this.isWeapon;
         }
 
-        if(this
+        if(this.isMagic){
+            context.font = "24px manaspc";
+            context.fillStyle = "yellow";
+       
