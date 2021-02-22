@@ -267,4 +267,5 @@ class DescriptionState extends State {
 
         if(this.isWeapon){
             context.font = "24px manaspc";
-            context.fillStyl
+            context.fillStyle = "yellow";
+            context.fillText(`${mainHero.weapon.name} - ${mainHero.weap
