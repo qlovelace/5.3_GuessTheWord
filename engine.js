@@ -276,4 +276,5 @@ class DescriptionState extends State {
         if(this.isMagic){
             context.font = "24px manaspc";
             context.fillStyle = "yellow";
-       
+            context.fillText(`${mainHero.magic.name} - ${mainHero.magic.description}`, 10, 450);
+            this.i
