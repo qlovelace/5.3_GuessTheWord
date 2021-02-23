@@ -277,4 +277,11 @@ class DescriptionState extends State {
             context.font = "24px manaspc";
             context.fillStyle = "yellow";
             context.fillText(`${mainHero.magic.name} - ${mainHero.magic.description}`, 10, 450);
-            this.i
+            this.isMagic = !this.isMagic;
+        }
+
+        super.update(context);
+    }
+}
+
+class GameOver extends Stat
