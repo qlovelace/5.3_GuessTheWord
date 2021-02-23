@@ -284,4 +284,10 @@ class DescriptionState extends State {
     }
 }
 
-class GameOver extends Stat
+class GameOver extends State {
+    constructor() {
+        super();
+    }
+
+    keyHandler(scene, event) {
+        switch (event
