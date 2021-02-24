@@ -290,4 +290,7 @@ class GameOver extends State {
     }
 
     keyHandler(scene, event) {
-        switch (event
+        switch (event.keyCode) {
+            case 27:
+                scene.setState(menu);
+                menu.drop
