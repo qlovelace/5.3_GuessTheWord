@@ -300,4 +300,10 @@ class GameOver extends State {
 
     get events() {
         return {
-            keyup: thi
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        context.drawImage(getRandomIMG(), 0, 0);
+      
