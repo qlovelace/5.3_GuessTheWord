@@ -293,4 +293,11 @@ class GameOver extends State {
         switch (event.keyCode) {
             case 27:
                 scene.setState(menu);
-                menu.drop
+                menu.dropMenuPos();
+        }
+        scene.update();
+    }
+
+    get events() {
+        return {
+            keyup: thi
