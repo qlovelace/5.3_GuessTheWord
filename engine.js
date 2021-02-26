@@ -306,4 +306,7 @@ class GameOver extends State {
 
     update(context) {
         context.drawImage(getRandomIMG(), 0, 0);
-      
+        context.fillStyle = "white";
+        context.font = "24px manaspc";
+
+        context.fillText(`Name: ${main
