@@ -309,4 +309,6 @@ class GameOver extends State {
         context.fillStyle = "white";
         context.font = "24px manaspc";
 
-        context.fillText(`Name: ${main
+        context.fillText(`Name: ${mainHero.name}`, 20, 150);
+        context.fillText(`Race: ${mainHero.race}`, 20, 180);
+        context.fillText
