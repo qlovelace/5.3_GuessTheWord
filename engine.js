@@ -312,4 +312,6 @@ class GameOver extends State {
         context.fillText(`Name: ${mainHero.name}`, 20, 150);
         context.fillText(`Race: ${mainHero.race}`, 20, 180);
         context.fillText(`Depth: ${depth}`, 20, 210);
-        context.fillText(`Weapon: ${mainHero.weapon.name}`, 20, 240
+        context.fillText(`Weapon: ${mainHero.weapon.name}`, 20, 240);
+        context.fillText(`Armor: ${mainHero.armor.name}`, 20, 270);
+        context.fillText("Press Esc to exit..
