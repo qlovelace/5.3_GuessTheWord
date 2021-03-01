@@ -318,4 +318,6 @@ class GameOver extends State {
         context.font = "12px manaspc";
 
         game.drawMessage(game.messages[0], 30, 505 - 100, context);      //0
-        game.drawMessage(game.messages[1], 30, 525 - 100 - 1, context);  
+        game.drawMessage(game.messages[1], 30, 525 - 100 - 1, context);      //1
+        game.drawMessage(game.messages[2], 30, 545 - 100 - 2, context);      //2
+     
