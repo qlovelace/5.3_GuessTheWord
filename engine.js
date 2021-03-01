@@ -314,4 +314,7 @@ class GameOver extends State {
         context.fillText(`Depth: ${depth}`, 20, 210);
         context.fillText(`Weapon: ${mainHero.weapon.name}`, 20, 240);
         context.fillText(`Armor: ${mainHero.armor.name}`, 20, 270);
-        context.fillText("Press Esc to exit..
+        context.fillText("Press Esc to exit...", 100, 600);
+        context.font = "12px manaspc";
+
+        game.drawMessage(game.messages[0], 30, 
