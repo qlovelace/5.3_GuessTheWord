@@ -317,4 +317,5 @@ class GameOver extends State {
         context.fillText("Press Esc to exit...", 100, 600);
         context.font = "12px manaspc";
 
-        game.drawMessage(game.messages[0], 30, 
+        game.drawMessage(game.messages[0], 30, 505 - 100, context);      //0
+        game.drawMessage(game.messages[1], 30, 525 - 100 - 1, context);  
