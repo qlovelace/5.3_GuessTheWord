@@ -321,4 +321,5 @@ class GameOver extends State {
         game.drawMessage(game.messages[1], 30, 525 - 100 - 1, context);      //1
         game.drawMessage(game.messages[2], 30, 545 - 100 - 2, context);      //2
         game.drawMessage(game.messages[3], 30, 565 - 100 - 3, context);      //3
-        game.d
+        game.drawMessage(game.messages[4], 30, 585 - 100 - 4, context);      //4
+        game.drawMessage(gam
