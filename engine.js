@@ -331,4 +331,11 @@ class GameOver extends State {
     }
 }
 
-class MenuState extends Sta
+class MenuState extends State {
+    constructor() {
+        super();
+        this.menuPos = 0;
+    }
+
+    dropMenuPos() {
+       
