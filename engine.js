@@ -324,4 +324,11 @@ class GameOver extends State {
         game.drawMessage(game.messages[4], 30, 585 - 100 - 4, context);      //4
         game.drawMessage(game.messages[5], 30, 605 - 100 - 5, context);      //5
         game.drawMessage(game.messages[6], 30, 625 - 100 - 5, context);      //6
-        game.drawMessage(game.messages[7], 30, 
+        game.drawMessage(game.messages[7], 30, 645 - 100 - 7, context);      //7
+
+
+        super.update(context);
+    }
+}
+
+class MenuState extends Sta
