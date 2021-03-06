@@ -343,4 +343,7 @@ class MenuState extends State {
 
     keyHandler(scene, event) {
         switch (event.keyCode) {
-          
+            case 38: //arrow up
+                this.menuPos--;
+                break;
+            case 40: /
