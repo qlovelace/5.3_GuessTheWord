@@ -338,4 +338,9 @@ class MenuState extends State {
     }
 
     dropMenuPos() {
-       
+        this.menuPos = 0;
+    }
+
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+          
