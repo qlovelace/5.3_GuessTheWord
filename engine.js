@@ -350,4 +350,6 @@ class MenuState extends State {
                 this.menuPos++;
                 break;
             case 13:
-                switch (th
+                switch (this.menuPos) {
+                    case 0:
+                        scene.setState(charCreation);
