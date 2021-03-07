@@ -354,4 +354,8 @@ class MenuState extends State {
                     case 0:
                         scene.setState(charCreation);
                         // scene.setState(game);
-                        // game.s
+                        // game.startGame();
+                        break;
+                    case 1:
+                        //leaderboards
+ 
