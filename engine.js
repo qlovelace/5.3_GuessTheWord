@@ -346,4 +346,8 @@ class MenuState extends State {
             case 38: //arrow up
                 this.menuPos--;
                 break;
-            case 40: /
+            case 40: //arrow down
+                this.menuPos++;
+                break;
+            case 13:
+                switch (th
