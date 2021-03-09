@@ -359,4 +359,7 @@ class MenuState extends State {
                     case 1:
                         //leaderboards
                         scene.setState(new LeaderboardsState(menu));
-                     
+                        break;
+                    case 2:
+                        scene.setState(settings);
+  
