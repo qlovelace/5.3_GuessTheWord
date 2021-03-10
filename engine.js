@@ -364,4 +364,7 @@ class MenuState extends State {
                         scene.setState(settings);
                         break;
                     case 3:
-                        scene.setState(cre
+                        scene.setState(credits);
+                        break;
+                    case 4:
+               
