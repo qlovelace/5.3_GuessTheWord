@@ -367,4 +367,6 @@ class MenuState extends State {
                         scene.setState(credits);
                         break;
                     case 4:
-               
+                        // sign in
+                        scene.setState(new SignInState(menu));
+                   
