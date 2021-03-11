@@ -369,4 +369,7 @@ class MenuState extends State {
                     case 4:
                         // sign in
                         scene.setState(new SignInState(menu));
-                   
+                        break;
+                    case 5:
+                        // sign out
+                
