@@ -372,4 +372,6 @@ class MenuState extends State {
                         break;
                     case 5:
                         // sign out
-                
+                        let signOutCallback = function (result) {
+                            if (result) {
+            
