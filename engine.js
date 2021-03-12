@@ -374,4 +374,6 @@ class MenuState extends State {
                         // sign out
                         let signOutCallback = function (result) {
                             if (result) {
-            
+                                scene.setState(menu);
+                            } else {
+                                scene.s
