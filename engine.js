@@ -376,4 +376,6 @@ class MenuState extends State {
                             if (result) {
                                 scene.setState(menu);
                             } else {
-                                scene.s
+                                scene.setState(new OfflineState(menu));
+                            }
+                            s
