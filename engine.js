@@ -392,4 +392,9 @@ class MenuState extends State {
 
     get events() {
         return {
-            
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        context.fillStyle = "bl
