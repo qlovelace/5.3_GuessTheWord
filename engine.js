@@ -385,4 +385,11 @@ class MenuState extends State {
                     default:
                         alert("Not yet implemented!");
                         break;
-        
+                }
+        }
+        scene.update();
+    }
+
+    get events() {
+        return {
+            
