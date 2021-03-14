@@ -382,4 +382,7 @@ class MenuState extends State {
                         };
                         scene.setState(new LoadingState(logout, this, [], signOutCallback));
                         break;
-                    d
+                    default:
+                        alert("Not yet implemented!");
+                        break;
+        
