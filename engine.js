@@ -380,4 +380,6 @@ class MenuState extends State {
                             }
                             scene.update();
                         };
-                        scene.setState(n
+                        scene.setState(new LoadingState(logout, this, [], signOutCallback));
+                        break;
+                    d
