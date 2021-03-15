@@ -401,4 +401,8 @@ class MenuState extends State {
         context.fillRect(0, 0, 1000, 650);
 
         if (this.menuPos < 0)
-       
+            this.menuPos = 5;
+        if (this.menuPos > 5)
+            this.menuPos = 0;
+
+        context.draw
