@@ -397,4 +397,8 @@ class MenuState extends State {
     }
 
     update(context) {
-        context.fillStyle = "bl
+        context.fillStyle = "black";
+        context.fillRect(0, 0, 1000, 650);
+
+        if (this.menuPos < 0)
+       
