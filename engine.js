@@ -405,4 +405,6 @@ class MenuState extends State {
         if (this.menuPos > 5)
             this.menuPos = 0;
 
-        context.draw
+        context.drawImage(dragon,36,120);
+        context.drawImage(dragonLable,203,0);
+        switch (this.menuPos) 
