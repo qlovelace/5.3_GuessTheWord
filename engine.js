@@ -407,4 +407,7 @@ class MenuState extends State {
 
         context.drawImage(dragon,36,120);
         context.drawImage(dragonLable,203,0);
-        switch (this.menuPos) 
+        switch (this.menuPos) {
+            case 0:
+                context.drawImage(sword,671,192);
+                break;
