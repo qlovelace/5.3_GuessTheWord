@@ -417,4 +417,8 @@ class MenuState extends State {
             case 2:
                 context.drawImage(sword,578,317);
                 break;
-        
+            case 3:
+                context.drawImage(sword,617,381);
+                break;
+            case 4:
+    
