@@ -427,4 +427,6 @@ class MenuState extends State {
                 context.drawImage(sword,478,527);
                 break;
         }
-        context.fillS
+        context.fillStyle = "white";
+        context.font = "48px manaspc";//61
+        context.textAli
