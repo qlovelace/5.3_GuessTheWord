@@ -433,4 +433,6 @@ class MenuState extends State {
         context.fillText("Start",796,236);
         context.fillText("Leaderboards",572,297);
         context.fillText("Settings",698,360);
-        context.fillText("Cred
+        context.fillText("Credits",733,425);
+        context.fillText("Sign-in",195,575);
+        context.fillTe
