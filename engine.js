@@ -431,4 +431,6 @@ class MenuState extends State {
         context.font = "48px manaspc";//61
         context.textAlign = "left";
         context.fillText("Start",796,236);
-        context.fillText("Le
+        context.fillText("Leaderboards",572,297);
+        context.fillText("Settings",698,360);
+        context.fillText("Cred
