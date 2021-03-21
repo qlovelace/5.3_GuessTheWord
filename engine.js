@@ -435,4 +435,7 @@ class MenuState extends State {
         context.fillText("Settings",698,360);
         context.fillText("Credits",733,425);
         context.fillText("Sign-in",195,575);
-        context.fillTe
+        context.fillText("Sign-out",595,571);
+        if (dbUser) {
+            context.font = "16px manaspc";
+            cont
