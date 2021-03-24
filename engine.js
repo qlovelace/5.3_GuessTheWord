@@ -438,4 +438,6 @@ class MenuState extends State {
         context.fillText("Sign-out",595,571);
         if (dbUser) {
             context.font = "16px manaspc";
-            cont
+            context.textAlign = "right";
+            context.fillStyle = "white";
+            context.fillText(`We
