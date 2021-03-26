@@ -442,4 +442,7 @@ class MenuState extends State {
             context.fillStyle = "white";
             context.fillText(`Welcome, ${dbUser.displayName}`, 995, 21);
             context.textAlign = "left";
-      
+        }
+        context.font = "16px manaspc";
+        context.textAlign = "right";
+        context.fillStyle
