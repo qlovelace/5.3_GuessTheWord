@@ -445,4 +445,6 @@ class MenuState extends State {
         }
         context.font = "16px manaspc";
         context.textAlign = "right";
-        context.fillStyle
+        context.fillStyle = "white";
+        context.fillText(VERSION.toString(), 995, 630);
+        context.textAli
