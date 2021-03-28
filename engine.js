@@ -452,4 +452,8 @@ class MenuState extends State {
     }
 }
 
-class CharCreationState extends Stat
+class CharCreationState extends State {
+    constructor() {
+        super();
+        this.isCreated = false;
+        this.nameType
