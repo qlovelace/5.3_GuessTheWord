@@ -447,4 +447,9 @@ class MenuState extends State {
         context.textAlign = "right";
         context.fillStyle = "white";
         context.fillText(VERSION.toString(), 995, 630);
-        context.textAli
+        context.textAlign = "left";
+        super.update(context);
+    }
+}
+
+class CharCreationState extends Stat
