@@ -456,4 +456,9 @@ class CharCreationState extends State {
     constructor() {
         super();
         this.isCreated = false;
-        this.nameType
+        this.nameType = false;
+    }
+
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+            case 72: 
