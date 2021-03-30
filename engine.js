@@ -462,4 +462,6 @@ class CharCreationState extends State {
     keyHandler(scene, event) {
         switch (event.keyCode) {
             case 72: //h
-                mainHero = new Player('Human', 10, 10, dbUser ? dbUser.di
+                mainHero = new Player('Human', 10, 10, dbUser ? dbUser.displayName : 'UNKNOWN');
+                this.isCreated = true;
+                bre
