@@ -466,4 +466,7 @@ class CharCreationState extends State {
                 this.isCreated = true;
                 break;
             case 79: //o
-                mainHero = new Player('Orc', 10, 10, dbUser 
+                mainHero = new Player('Orc', 10, 10, dbUser ? dbUser.displayName : 'UNKNOWN');
+                this.isCreated = true;
+                break;
+            case 77:
