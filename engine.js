@@ -481,3 +481,6 @@ class CharCreationState extends State {
                 mainHero = new Player('Dwarf', 10, 10, dbUser ? dbUser.displayName : 'UNKNOWN');
                 this.isCreated = true;
                 break;
+            case 27: //Esc
+                scene.setState(menu);
+                brea
