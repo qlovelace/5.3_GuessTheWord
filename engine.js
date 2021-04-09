@@ -487,4 +487,6 @@ class CharCreationState extends State {
 
             case 13: //Enter
                 if (this.isCreated) {
-     
+                    this.isCreated = false;
+                    scene.setState(game);
+                    
