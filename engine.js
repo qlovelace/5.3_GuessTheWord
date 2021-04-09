@@ -483,4 +483,8 @@ class CharCreationState extends State {
                 break;
             case 27: //Esc
                 scene.setState(menu);
-                brea
+                break;
+
+            case 13: //Enter
+                if (this.isCreated) {
+     
