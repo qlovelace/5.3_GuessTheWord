@@ -496,3 +496,10 @@ class CharCreationState extends State {
     }
 
     get events() {
+        return {
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        
