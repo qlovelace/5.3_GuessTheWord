@@ -489,4 +489,10 @@ class CharCreationState extends State {
                 if (this.isCreated) {
                     this.isCreated = false;
                     scene.setState(game);
-                    
+                    game.startGame();
+                }
+        }
+        scene.update();
+    }
+
+    get events() {
