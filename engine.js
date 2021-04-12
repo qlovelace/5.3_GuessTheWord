@@ -504,4 +504,6 @@ class CharCreationState extends State {
     update(context) {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
-        context.
+        context.font = "48px manaspc";
+        context.textAlign = "center";
+        context.fillText("Choose your race:", 4
