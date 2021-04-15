@@ -506,4 +506,6 @@ class CharCreationState extends State {
         context.fillStyle = "white";
         context.font = "48px manaspc";
         context.textAlign = "center";
-        context.fillText("Choose your race:", 4
+        context.fillText("Choose your race:", 470, 40);
+        context.font = "24px manaspc";
+        context.fillText("Press the following
