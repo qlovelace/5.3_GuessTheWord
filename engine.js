@@ -514,4 +514,7 @@ class CharCreationState extends State {
         context.textAlign = "left";
         context.font = "24px manaspc";
 
-        context.fillText("h - Human", 10, 
+        context.fillText("h - Human", 10, 100);
+        context.fillText("o - Orc", 10, 130);
+        context.fillText("e - Wood elf", 10, 160);
+    
