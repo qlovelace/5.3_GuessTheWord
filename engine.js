@@ -511,4 +511,7 @@ class CharCreationState extends State {
         context.fillText("Press the following button to choose your hero", 470, 580);
         context.fillText("Press Enter to play", 470, 600);
 
-        context.text
+        context.textAlign = "left";
+        context.font = "24px manaspc";
+
+        context.fillText("h - Human", 10, 
