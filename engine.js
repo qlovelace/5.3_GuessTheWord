@@ -517,4 +517,5 @@ class CharCreationState extends State {
         context.fillText("h - Human", 10, 100);
         context.fillText("o - Orc", 10, 130);
         context.fillText("e - Wood elf", 10, 160);
-    
+        context.fillText("m - Magic wombat", 10, 190);
+        context.fillText("
