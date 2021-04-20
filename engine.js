@@ -523,4 +523,5 @@ class CharCreationState extends State {
         if (this.isCreated) {
             context.font = "16px manaspc";
             context.fillText(`Your character: ${mainHero.name}`, 650, 100);
-            context
+            context.fillText(`Strength: ${mainHero.strength}`, 650, 130);
+            context.fillText(`Agil
