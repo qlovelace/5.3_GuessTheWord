@@ -521,4 +521,6 @@ class CharCreationState extends State {
         context.fillText("d - Dwarf", 10, 220);
         super.update(context);
         if (this.isCreated) {
-            context.font = "16px ma
+            context.font = "16px manaspc";
+            context.fillText(`Your character: ${mainHero.name}`, 650, 100);
+            context
