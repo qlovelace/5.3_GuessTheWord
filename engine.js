@@ -525,4 +525,5 @@ class CharCreationState extends State {
             context.fillText(`Your character: ${mainHero.name}`, 650, 100);
             context.fillText(`Strength: ${mainHero.strength}`, 650, 130);
             context.fillText(`Agility: ${mainHero.agility}`, 650, 160);
-            context.fillText(`Intelligence: ${m
+            context.fillText(`Intelligence: ${mainHero.intelligence}`, 650, 190);
+            context.fillText(`Initiative: ${mainHero.initiative} `, 
