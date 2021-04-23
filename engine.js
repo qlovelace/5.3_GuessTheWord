@@ -526,4 +526,10 @@ class CharCreationState extends State {
             context.fillText(`Strength: ${mainHero.strength}`, 650, 130);
             context.fillText(`Agility: ${mainHero.agility}`, 650, 160);
             context.fillText(`Intelligence: ${mainHero.intelligence}`, 650, 190);
-            context.fillText(`Initiative: ${mainHero.initiative} `, 
+            context.fillText(`Initiative: ${mainHero.initiative} `, 650, 220);
+            context.fillText(`Endurance: ${mainHero.endurance}`, 650, 250);
+        }
+    }
+}
+
+class Lead
