@@ -532,4 +532,7 @@ class CharCreationState extends State {
     }
 }
 
-class Lead
+class LeaderboardsState extends State {
+    constructor(callbackState) {
+        super();
+        this.callb
