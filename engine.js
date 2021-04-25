@@ -540,4 +540,10 @@ class LeaderboardsState extends State {
     }
 
     get events() {
-        ret
+        return {
+            keyup: this.keyHandler,
+        }
+    }
+
+    keyHandler(scene, event) {
+        sw
