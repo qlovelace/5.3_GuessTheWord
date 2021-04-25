@@ -535,4 +535,9 @@ class CharCreationState extends State {
 class LeaderboardsState extends State {
     constructor(callbackState) {
         super();
-        this.callb
+        this.callbackState = callbackState;
+        this.scoresPerPage = 20;
+    }
+
+    get events() {
+        ret
