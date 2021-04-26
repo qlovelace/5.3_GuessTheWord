@@ -546,4 +546,6 @@ class LeaderboardsState extends State {
     }
 
     keyHandler(scene, event) {
-        sw
+        switch (event.keyCode) {
+            case 27: //escape
+                scene.setState(this.callba
