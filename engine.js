@@ -555,4 +555,6 @@ class LeaderboardsState extends State {
     }
 
     update(context) {
-      
+        context.clearRect(0, 0, 1000, 650);
+        context.fillStyle = "white";
+        context.font = "48p
