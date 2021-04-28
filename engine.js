@@ -557,4 +557,6 @@ class LeaderboardsState extends State {
     update(context) {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
-        context.font = "48p
+        context.font = "48px manaspc";
+        context.textAlign = "center";
+        context.fillText("Leaderboards:", 500, 4
