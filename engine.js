@@ -562,4 +562,6 @@ class LeaderboardsState extends State {
         context.fillText("Leaderboards:", 500, 40);
         context.fillText("Please wait...", 500, 325);
         context.font = "24px manaspc";
-        context.f
+        context.fillText("Press Esc to go back", 500, 600);
+
+        getScores(this.scoresPerPage).then(s
