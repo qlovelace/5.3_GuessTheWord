@@ -559,4 +559,7 @@ class LeaderboardsState extends State {
         context.fillStyle = "white";
         context.font = "48px manaspc";
         context.textAlign = "center";
-        context.fillText("Leaderboards:", 500, 4
+        context.fillText("Leaderboards:", 500, 40);
+        context.fillText("Please wait...", 500, 325);
+        context.font = "24px manaspc";
+        context.f
