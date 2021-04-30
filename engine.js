@@ -564,4 +564,6 @@ class LeaderboardsState extends State {
         context.font = "24px manaspc";
         context.fillText("Press Esc to go back", 500, 600);
 
-        getScores(this.scoresPerPage).then(s
+        getScores(this.scoresPerPage).then(scores => {
+            if (scores.length) {
+                context.clearRect(0, 100, 10
