@@ -566,4 +566,6 @@ class LeaderboardsState extends State {
 
         getScores(this.scoresPerPage).then(scores => {
             if (scores.length) {
-                context.clearRect(0, 100, 10
+                context.clearRect(0, 100, 1000, 400);
+                context.font = "24px manaspc";
+                for (let i = 0; i <
