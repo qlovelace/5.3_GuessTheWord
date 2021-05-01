@@ -570,4 +570,6 @@ class LeaderboardsState extends State {
                 context.font = "24px manaspc";
                 for (let i = 0; i < scores.length; ++i) {
                     let score = scores[i];
-                    if (dbUse
+                    if (dbUser) {
+                        if (score.uid === dbUser.uid) {
+                            context.fillS
