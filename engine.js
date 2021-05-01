@@ -568,4 +568,6 @@ class LeaderboardsState extends State {
             if (scores.length) {
                 context.clearRect(0, 100, 1000, 400);
                 context.font = "24px manaspc";
-                for (let i = 0; i <
+                for (let i = 0; i < scores.length; ++i) {
+                    let score = scores[i];
+                    if (dbUse
