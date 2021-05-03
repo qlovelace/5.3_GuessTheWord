@@ -572,4 +572,7 @@ class LeaderboardsState extends State {
                     let score = scores[i];
                     if (dbUser) {
                         if (score.uid === dbUser.uid) {
-                            context.fillS
+                            context.fillStyle = "yellow";
+                        }
+                    }
+                    context.textAlign = "left
