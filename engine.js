@@ -578,4 +578,7 @@ class LeaderboardsState extends State {
                     context.textAlign = "left";
                     context.fillText(`#${i + 1}: ${score.nickname}`, 50, 90 + i * 25, 450);
                     context.textAlign = "right";
-                    context.fillText(`${score.depth}`,
+                    context.fillText(`${score.depth}`, 950, 90 + i * 25, 450);
+                    context.fillStyle = "white";
+                }
+     
