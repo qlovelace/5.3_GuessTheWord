@@ -583,4 +583,6 @@ class LeaderboardsState extends State {
                 }
                 context.textAlign = "left";
             } else {
-                
+                context.font = "48px manaspc";
+                context.textAlign = "center";
+                con
