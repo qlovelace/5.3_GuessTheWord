@@ -585,4 +585,5 @@ class LeaderboardsState extends State {
             } else {
                 context.font = "48px manaspc";
                 context.textAlign = "center";
-                con
+                context.fillText("No leaders yet. Be first!", 500, 325);
+                context.font = "24px manas
