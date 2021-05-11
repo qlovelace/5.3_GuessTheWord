@@ -586,4 +586,12 @@ class LeaderboardsState extends State {
                 context.font = "48px manaspc";
                 context.textAlign = "center";
                 context.fillText("No leaders yet. Be first!", 500, 325);
-                context.font = "24px manas
+                context.font = "24px manaspc";
+            }
+        });
+        super.update(context);
+
+    }
+}
+
+class SignIn
