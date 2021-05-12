@@ -597,4 +597,6 @@ class LeaderboardsState extends State {
 class SignInState extends State {
     constructor(callbackState, error = null) {
         super();
-        
+        this.callbackState = callbackState;
+        this.fieldFocus = 0;
+        this.fi
