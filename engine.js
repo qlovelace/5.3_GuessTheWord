@@ -594,4 +594,7 @@ class LeaderboardsState extends State {
     }
 }
 
-class SignIn
+class SignInState extends State {
+    constructor(callbackState, error = null) {
+        super();
+        
