@@ -599,4 +599,9 @@ class SignInState extends State {
         super();
         this.callbackState = callbackState;
         this.fieldFocus = 0;
-        this.fi
+        this.fields = [{
+            type: "text",
+            name: "Email",
+            val: "",
+        }, {
+  
