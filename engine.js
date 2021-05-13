@@ -604,4 +604,8 @@ class SignInState extends State {
             name: "Email",
             val: "",
         }, {
-  
+            type: "text",
+            name: "Password",
+            val: "",
+            hideChars: true,
+       
