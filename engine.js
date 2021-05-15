@@ -611,4 +611,7 @@ class SignInState extends State {
         }, {
             type: "button",
             name: "Sign-up",
-            click: sc
+            click: scene => {
+                scene.setState(new SignUpState(this.callbackState));
+            }
+ 
