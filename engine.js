@@ -608,4 +608,7 @@ class SignInState extends State {
             name: "Password",
             val: "",
             hideChars: true,
-       
+        }, {
+            type: "button",
+            name: "Sign-up",
+            click: sc
