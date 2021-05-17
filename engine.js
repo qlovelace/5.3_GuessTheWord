@@ -614,4 +614,10 @@ class SignInState extends State {
             click: scene => {
                 scene.setState(new SignUpState(this.callbackState));
             }
- 
+        }];
+        this.error = error;
+    }
+
+    get events() {
+        return {
+     
