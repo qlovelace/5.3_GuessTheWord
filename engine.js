@@ -625,4 +625,6 @@ class SignInState extends State {
         }
     }
 
-    typeH
+    typeHandler(scene, event) {
+        if (this.fields[this.fieldFocus].type === "text") {
+            
