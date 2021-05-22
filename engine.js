@@ -628,4 +628,10 @@ class SignInState extends State {
     typeHandler(scene, event) {
         if (this.fields[this.fieldFocus].type === "text") {
             if (event.key !== "Enter" && event.key !== "Backspace")
-                this.fields[this.fieldFocus].
+                this.fields[this.fieldFocus].val += event.key;
+        }
+        scene.update();
+    }
+
+    keyHandler(scene, event) {
+        switch (
