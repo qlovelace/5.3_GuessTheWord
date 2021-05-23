@@ -634,4 +634,7 @@ class SignInState extends State {
     }
 
     keyHandler(scene, event) {
-        switch (
+        switch (event.keyCode) {
+            case 27: //escape
+                scene.setState(this.callbackState);
+    
