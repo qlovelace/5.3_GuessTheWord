@@ -637,4 +637,6 @@ class SignInState extends State {
         switch (event.keyCode) {
             case 27: //escape
                 scene.setState(this.callbackState);
-    
+                break;
+            case 8: //backspace
+                if (this.fields[this.fieldFocus].type 
