@@ -639,4 +639,6 @@ class SignInState extends State {
                 scene.setState(this.callbackState);
                 break;
             case 8: //backspace
-                if (this.fields[this.fieldFocus].type 
+                if (this.fields[this.fieldFocus].type === "text") {
+                    this.fields[this.fieldFocus].val =
+                        this.fields[
