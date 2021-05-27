@@ -643,4 +643,8 @@ class SignInState extends State {
                     this.fields[this.fieldFocus].val =
                         this.fields[this.fieldFocus].val.substr(0, this.fields[this.fieldFocus].val.length - 1);
                 }
-           
+                break;
+            case 38: //arrow up
+                this.fieldFocus--;
+                break;
+         
