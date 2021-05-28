@@ -647,4 +647,7 @@ class SignInState extends State {
             case 38: //arrow up
                 this.fieldFocus--;
                 break;
-         
+            case 40: //arrow down
+                this.fieldFocus++;
+                break;
+    
