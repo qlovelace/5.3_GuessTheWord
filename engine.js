@@ -650,4 +650,5 @@ class SignInState extends State {
             case 40: //arrow down
                 this.fieldFocus++;
                 break;
-    
+            case 32: //space, useful for buttons
+                if (this.fields[this.fieldFocus].type === "button
