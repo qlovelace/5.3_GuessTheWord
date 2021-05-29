@@ -651,4 +651,7 @@ class SignInState extends State {
                 this.fieldFocus++;
                 break;
             case 32: //space, useful for buttons
-                if (this.fields[this.fieldFocus].type === "button
+                if (this.fields[this.fieldFocus].type === "button") {
+                    this.fields[this.fieldFocus].click(scene);
+                }
+      
