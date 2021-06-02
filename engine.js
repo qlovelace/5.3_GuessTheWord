@@ -654,4 +654,7 @@ class SignInState extends State {
                 if (this.fields[this.fieldFocus].type === "button") {
                     this.fields[this.fieldFocus].click(scene);
                 }
-      
+                break;
+            case 13:
+                let authCallback = (result) => {
+          
