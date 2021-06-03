@@ -658,4 +658,6 @@ class SignInState extends State {
             case 13:
                 let authCallback = (result) => {
                     if (result) {
-                        scene.setState(this.callbackSt
+                        scene.setState(this.callbackState);
+                    } else {
+                        scene.setState(new SignInState(this.callbackSta
