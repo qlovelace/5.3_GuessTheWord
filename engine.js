@@ -660,4 +660,6 @@ class SignInState extends State {
                     if (result) {
                         scene.setState(this.callbackState);
                     } else {
-                        scene.setState(new SignInState(this.callbackSta
+                        scene.setState(new SignInState(this.callbackState, "An error has occurred. Try again."));
+                    }
+                    scene.update();
