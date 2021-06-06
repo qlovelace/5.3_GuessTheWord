@@ -663,3 +663,7 @@ class SignInState extends State {
                         scene.setState(new SignInState(this.callbackState, "An error has occurred. Try again."));
                     }
                     scene.update();
+                };
+                let email = this.fields[0].val;
+                let pass = this.fields[1].val;
+ 
