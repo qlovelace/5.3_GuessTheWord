@@ -668,4 +668,9 @@ class SignInState extends State {
                 let pass = this.fields[1].val;
                 scene.setState(new LoadingState(login, this, [email, pass], authCallback));
         }
-     
+        scene.update();
+    }
+
+    update(context) {
+        if (this.fieldFocus < 0)
+            this.fieldFoc
