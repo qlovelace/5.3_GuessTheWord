@@ -673,4 +673,6 @@ class SignInState extends State {
 
     update(context) {
         if (this.fieldFocus < 0)
-            this.fieldFoc
+            this.fieldFocus = 0;
+        if (this.fieldFocus >= this.fields.length)
+            this.fieldFocus = 
