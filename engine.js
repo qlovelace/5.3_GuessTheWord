@@ -678,4 +678,7 @@ class SignInState extends State {
             this.fieldFocus = this.fields.length - 1;
 
         context.clearRect(0, 0, 1000, 650);
-        context.fillSty
+        context.fillStyle = "white";
+        context.font = "48px manaspc";
+        context.textAlign = "center";
+   
