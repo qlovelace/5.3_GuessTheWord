@@ -683,4 +683,7 @@ class SignInState extends State {
         context.textAlign = "center";
         context.fillText("Sign in:", 470, 40);
         context.font = "24px manaspc";
-        if (this.error) 
+        if (this.error) {
+            context.fillStyle = "red";
+            context.fillText(this.error, 470, 540);
+            
