@@ -686,4 +686,7 @@ class SignInState extends State {
         if (this.error) {
             context.fillStyle = "red";
             context.fillText(this.error, 470, 540);
-            
+            context.fillStyle = "white";
+
+        }
+        context.fillText("We do not keep your email!", 470, 560
