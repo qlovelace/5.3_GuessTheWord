@@ -691,4 +691,7 @@ class SignInState extends State {
         }
         context.fillText("We do not keep your email!", 470, 560);
         context.fillText("Press Space while focused on button to click", 470, 580);
-      
+        context.fillText("Press Enter to sign in", 470, 600);
+
+        context.strokeStyle = "white";
+        
