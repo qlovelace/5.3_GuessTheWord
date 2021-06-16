@@ -694,4 +694,6 @@ class SignInState extends State {
         context.fillText("Press Enter to sign in", 470, 600);
 
         context.strokeStyle = "white";
-        
+        context.lineWidth = 2;
+        context.textAlign = "left";
+        for (let i = 0; i < t
