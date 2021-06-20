@@ -700,4 +700,6 @@ class SignInState extends State {
             switch (this.fields[i].type) {
                 case "text":
                     context.fillText(this.fields[i].name, 202, 130 + (i * 2) * 25, 598);
-                    context.beginPa
+                    context.beginPath();
+                    context.rect(200, 130 + (i * 2) * 25 + 3, 600, 24);
+                    c
