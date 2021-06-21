@@ -706,3 +706,6 @@ class SignInState extends State {
                     let fieldText = this.fields[i].val;
                     if (this.fields[i].hideChars) {
                         fieldText = "*".repeat(this.fields[i].val.length);
+                    }
+                    if (this.fieldFocus === i) {
+    
