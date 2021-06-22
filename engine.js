@@ -708,4 +708,6 @@ class SignInState extends State {
                         fieldText = "*".repeat(this.fields[i].val.length);
                     }
                     if (this.fieldFocus === i) {
-    
+                        fieldText += '_';
+                    }
+                    context.fill
