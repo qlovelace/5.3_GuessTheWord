@@ -710,4 +710,6 @@ class SignInState extends State {
                     if (this.fieldFocus === i) {
                         fieldText += '_';
                     }
-                    context.fill
+                    context.fillText(fieldText, 202, 130 + (i * 2 + 1) * 25 - 2, 598);
+                    break;
+         
