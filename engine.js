@@ -714,4 +714,6 @@ class SignInState extends State {
                     break;
                 case "button":
                     if (this.fieldFocus === i) {
-                   
+                        context.fillStyle = "yellow";
+                    }
+                    context
