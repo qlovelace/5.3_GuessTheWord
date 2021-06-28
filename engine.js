@@ -718,4 +718,6 @@ class SignInState extends State {
                     }
                     context.textAlign = "center";
                     context.fillText(this.fields[i].name, 500, 132 + (i * 2) * 25, 598);
+                    context.textAlign = "left";
+                    context.fillStyle = "white";
   
