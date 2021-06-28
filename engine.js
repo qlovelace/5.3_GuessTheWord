@@ -716,4 +716,6 @@ class SignInState extends State {
                     if (this.fieldFocus === i) {
                         context.fillStyle = "yellow";
                     }
-                    context
+                    context.textAlign = "center";
+                    context.fillText(this.fields[i].name, 500, 132 + (i * 2) * 25, 598);
+  
