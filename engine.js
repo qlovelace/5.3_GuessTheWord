@@ -720,4 +720,11 @@ class SignInState extends State {
                     context.fillText(this.fields[i].name, 500, 132 + (i * 2) * 25, 598);
                     context.textAlign = "left";
                     context.fillStyle = "white";
-  
+                    break;
+            }
+        }
+        super.update(context);
+    }
+}
+
+class Sign
