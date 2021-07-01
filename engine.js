@@ -727,4 +727,7 @@ class SignInState extends State {
     }
 }
 
-class Sign
+class SignUpState extends State {
+    constructor(callbackState, error = null) {
+        super();
+        this.callback
