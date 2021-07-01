@@ -730,4 +730,7 @@ class SignInState extends State {
 class SignUpState extends State {
     constructor(callbackState, error = null) {
         super();
-        this.callback
+        this.callbackState = callbackState;
+        this.fieldFocus = 0;
+        this.fields = [{
+            
