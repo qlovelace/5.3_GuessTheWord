@@ -733,4 +733,8 @@ class SignUpState extends State {
         this.callbackState = callbackState;
         this.fieldFocus = 0;
         this.fields = [{
+            type: "text",
+            name: "Email",
+            val: "",
+        }, {
             
