@@ -741,4 +741,7 @@ class SignUpState extends State {
             name: "Password",
             val: "",
             hideChars: true,
-        
+        }, {
+            type: "text",
+            name: "Nickname",
+            val: defaultNickna
