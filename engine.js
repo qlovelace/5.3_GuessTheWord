@@ -744,4 +744,11 @@ class SignUpState extends State {
         }, {
             type: "text",
             name: "Nickname",
-            val: defaultNickna
+            val: defaultNickname,
+        }];
+        this.error = error;
+    }
+
+    get events() {
+        return {
+    
