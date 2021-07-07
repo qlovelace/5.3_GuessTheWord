@@ -756,4 +756,6 @@ class SignUpState extends State {
         }
     }
 
-    typeHandler(scene, 
+    typeHandler(scene, event) {
+        if (event.key !== "Enter" && event.key !== "Backspace")
+            this.fields
