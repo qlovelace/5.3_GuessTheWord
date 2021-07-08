@@ -762,4 +762,7 @@ class SignUpState extends State {
         scene.update();
     }
 
-    keyHandler(scene, event) 
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+            case 27: //escape
+                scene.setState(this.c
