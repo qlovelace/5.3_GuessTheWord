@@ -758,4 +758,8 @@ class SignUpState extends State {
 
     typeHandler(scene, event) {
         if (event.key !== "Enter" && event.key !== "Backspace")
-            this.fields
+            this.fields[this.fieldFocus].val += event.key;
+        scene.update();
+    }
+
+    keyHandler(scene, event) 
