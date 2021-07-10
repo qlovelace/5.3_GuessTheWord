@@ -765,4 +765,7 @@ class SignUpState extends State {
     keyHandler(scene, event) {
         switch (event.keyCode) {
             case 27: //escape
-                scene.setState(this.c
+                scene.setState(this.callbackState);
+                break;
+            case 8: //backspace
+                this.fields[this.f
