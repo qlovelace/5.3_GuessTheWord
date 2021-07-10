@@ -768,4 +768,5 @@ class SignUpState extends State {
                 scene.setState(this.callbackState);
                 break;
             case 8: //backspace
-                this.fields[this.f
+                this.fields[this.fieldFocus].val =
+                    this.fields[this.fieldFocus].val.substr(0, this.fields[th
