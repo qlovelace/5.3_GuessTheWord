@@ -772,4 +772,7 @@ class SignUpState extends State {
                     this.fields[this.fieldFocus].val.substr(0, this.fields[this.fieldFocus].val.length - 1);
                 break;
             case 38: //arrow up
-                this.
+                this.fieldFocus--;
+                break;
+            case 40: //arrow down
+                this.f
