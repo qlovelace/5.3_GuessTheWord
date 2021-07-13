@@ -775,4 +775,7 @@ class SignUpState extends State {
                 this.fieldFocus--;
                 break;
             case 40: //arrow down
-                this.f
+                this.fieldFocus++;
+                break;
+            case 13:
+                let authCallback = function (result)
