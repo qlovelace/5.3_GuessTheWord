@@ -778,4 +778,6 @@ class SignUpState extends State {
                 this.fieldFocus++;
                 break;
             case 13:
-                let authCallback = function (result)
+                let authCallback = function (result) {
+                    if (result === true) {
+                        scene.setState(
