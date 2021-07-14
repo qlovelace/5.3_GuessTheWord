@@ -782,4 +782,6 @@ class SignUpState extends State {
                     if (result === true) {
                         scene.setState(this.callbackState);
                     } else {
-                        le
+                        let errorMsg = "An error has occurred. Try again.";
+                        switch (result) {
+            
