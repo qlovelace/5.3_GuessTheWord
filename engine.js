@@ -785,4 +785,6 @@ class SignUpState extends State {
                         let errorMsg = "An error has occurred. Try again.";
                         switch (result) {
                             case "auth/email-already-in-use":
-                                errorMsg = "T
+                                errorMsg = "This email is already in use.";
+                                break;
+                 
