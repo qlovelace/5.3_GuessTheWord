@@ -787,4 +787,5 @@ class SignUpState extends State {
                             case "auth/email-already-in-use":
                                 errorMsg = "This email is already in use.";
                                 break;
-                 
+                            case "auth/weak-password":
+                                errorMsg = "Your password is too 
