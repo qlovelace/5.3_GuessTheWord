@@ -791,4 +791,6 @@ class SignUpState extends State {
                                 errorMsg = "Your password is too weak.";
                                 break;
                         }
-                        s
+                        scene.setState(new SignUpState(this.callbackState, errorMsg));
+                    }
+       
