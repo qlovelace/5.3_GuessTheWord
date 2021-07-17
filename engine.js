@@ -793,4 +793,6 @@ class SignUpState extends State {
                         }
                         scene.setState(new SignUpState(this.callbackState, errorMsg));
                     }
-       
+                    scene.update();
+                };
+                let email = this.fie
