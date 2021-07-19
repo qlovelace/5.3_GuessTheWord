@@ -795,4 +795,7 @@ class SignUpState extends State {
                     }
                     scene.update();
                 };
-                let email = this.fie
+                let email = this.fields[0].val;
+                let pass = this.fields[1].val;
+                let nickname = this.fields[2].val;
+          
