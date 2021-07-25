@@ -813,4 +813,7 @@ class SignUpState extends State {
         context.fillStyle = "white";
         context.font = "48px manaspc";
         context.textAlign = "center";
-        context.fillT
+        context.fillText("Sign up:", 470, 40);
+        context.font = "24px manaspc";
+        if (this.error) {
+            context.
