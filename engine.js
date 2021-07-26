@@ -818,4 +818,7 @@ class SignUpState extends State {
         if (this.error) {
             context.fillStyle = "red";
             context.fillText(this.error, 470, 540);
-            co
+            context.fillStyle = "white";
+
+        }
+        context.fillText("We do not keep your email!",
