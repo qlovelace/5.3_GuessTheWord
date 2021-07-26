@@ -821,4 +821,7 @@ class SignUpState extends State {
             context.fillStyle = "white";
 
         }
-        context.fillText("We do not keep your email!",
+        context.fillText("We do not keep your email!", 470, 580);
+        context.fillText("Press Enter to sign up", 470, 600);
+
+        conte
