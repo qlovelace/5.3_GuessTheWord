@@ -828,4 +828,6 @@ class SignUpState extends State {
         context.lineWidth = 2;
         context.textAlign = "left";
         for (let i = 0; i < this.fields.length; ++i) {
-            context.fillText(this.fields[i].name, 20
+            context.fillText(this.fields[i].name, 202, 130 + (i * 2) * 25, 598);
+            context.beginPath();
+            context.rect(200, 
