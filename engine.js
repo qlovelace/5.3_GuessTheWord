@@ -832,4 +832,6 @@ class SignUpState extends State {
             context.beginPath();
             context.rect(200, 130 + (i * 2) * 25 + 3, 600, 24);
             context.stroke();
-            let fieldText = thi
+            let fieldText = this.fields[i].val;
+            if (this.fields[i].hideChars) {
+                fieldText = "*".repeat(this.field
