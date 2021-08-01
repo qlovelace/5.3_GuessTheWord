@@ -834,4 +834,7 @@ class SignUpState extends State {
             context.stroke();
             let fieldText = this.fields[i].val;
             if (this.fields[i].hideChars) {
-                fieldText = "*".repeat(this.field
+                fieldText = "*".repeat(this.fields[i].val.length);
+            }
+            if (this.fieldFocus === i) {
+                fieldT
