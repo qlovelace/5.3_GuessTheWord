@@ -837,4 +837,8 @@ class SignUpState extends State {
                 fieldText = "*".repeat(this.fields[i].val.length);
             }
             if (this.fieldFocus === i) {
-                fieldT
+                fieldText += '_';
+            }
+            context.fillText(fieldText, 202, 130 + (i * 2 + 1) * 25 - 2, 598);
+        }
+   
