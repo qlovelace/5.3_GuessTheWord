@@ -846,4 +846,7 @@ class SignUpState extends State {
 }
 
 class LoadingState extends State {
-    constructor(promise, prom
+    constructor(promise, promiseCtx, promiseArgs, callback) {
+        super();
+        this.promise = promise;
+        
