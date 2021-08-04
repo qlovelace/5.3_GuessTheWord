@@ -841,4 +841,9 @@ class SignUpState extends State {
             }
             context.fillText(fieldText, 202, 130 + (i * 2 + 1) * 25 - 2, 598);
         }
-   
+        super.update(context);
+    }
+}
+
+class LoadingState extends State {
+    constructor(promise, prom
