@@ -854,4 +854,7 @@ class LoadingState extends State {
         this.callback = callback;
     }
 
-    update(
+    update(context) {
+        context.clearRect(0, 0, 1000, 650);
+        context.fillStyle = "white";
+        context
