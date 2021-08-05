@@ -849,4 +849,9 @@ class LoadingState extends State {
     constructor(promise, promiseCtx, promiseArgs, callback) {
         super();
         this.promise = promise;
-        
+        this.ctx = promiseCtx;
+        this.args = promiseArgs;
+        this.callback = callback;
+    }
+
+    update(
