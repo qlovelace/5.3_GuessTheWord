@@ -859,4 +859,5 @@ class LoadingState extends State {
         context.fillStyle = "white";
         context.font = "48px manaspc";
         context.textAlign = "center";
-        context.fillText("Wait for a while...", 
+        context.fillText("Wait for a while...", 470, 300);
+        this.promise.apply(this.ctx, this.args).then(result => this.callback.call(
