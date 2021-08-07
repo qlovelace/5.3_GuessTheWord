@@ -857,4 +857,6 @@ class LoadingState extends State {
     update(context) {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
-        context
+        context.font = "48px manaspc";
+        context.textAlign = "center";
+        context.fillText("Wait for a while...", 
