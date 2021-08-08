@@ -865,4 +865,9 @@ class LoadingState extends State {
 }
 
 class OfflineState extends State {
-    constructor(callb
+    constructor(callbackState) {
+        super();
+        this.callbackState = callbackState;
+    }
+
+   
