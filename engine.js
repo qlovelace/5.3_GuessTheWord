@@ -870,4 +870,9 @@ class OfflineState extends State {
         this.callbackState = callbackState;
     }
 
-   
+    goBack(scene) {
+        scene.setState(this.callbackState);
+        scene.update();
+    }
+
+  
