@@ -875,4 +875,8 @@ class OfflineState extends State {
         scene.update();
     }
 
-  
+    get events() {
+        return {
+            keydown: this.goBack,
+        }
+    }
