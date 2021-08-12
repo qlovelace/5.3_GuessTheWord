@@ -880,3 +880,7 @@ class OfflineState extends State {
             keydown: this.goBack,
         }
     }
+
+    update(context) {
+        //TODO draw offline screen
+        context.clearRect(0, 0, 1000, 65
