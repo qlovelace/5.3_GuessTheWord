@@ -883,4 +883,7 @@ class OfflineState extends State {
 
     update(context) {
         //TODO draw offline screen
-        context.clearRect(0, 0, 1000, 65
+        context.clearRect(0, 0, 1000, 650);
+        context.fillStyle = "yellow";
+        context.font = "36px manaspc";
+        context.textAlig
