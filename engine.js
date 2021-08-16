@@ -886,4 +886,6 @@ class OfflineState extends State {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "yellow";
         context.font = "36px manaspc";
-        context.textAlig
+        context.textAlign = "center";
+        context.fillText("You are offline.", 470, 300);
+        context.fillText("Check 
