@@ -888,4 +888,6 @@ class OfflineState extends State {
         context.font = "36px manaspc";
         context.textAlign = "center";
         context.fillText("You are offline.", 470, 300);
-        context.fillText("Check 
+        context.fillText("Check your internet connection and try again.", 470, 340);
+        context.fillStyle = "white";
+        context.fillText
