@@ -890,4 +890,9 @@ class OfflineState extends State {
         context.fillText("You are offline.", 470, 300);
         context.fillText("Check your internet connection and try again.", 470, 340);
         context.fillStyle = "white";
-        context.fillText
+        context.fillText("Press any key to go back...", 470, 600);
+        super.update(context);
+    }
+}
+
+class ShopState extends State {
