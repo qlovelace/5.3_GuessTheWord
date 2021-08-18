@@ -896,3 +896,7 @@ class OfflineState extends State {
 }
 
 class ShopState extends State {
+    constructor() {
+        super();
+        this.isBought = undefined;
+        this.shopItems =
