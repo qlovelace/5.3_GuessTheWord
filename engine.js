@@ -902,4 +902,6 @@ class ShopState extends State {
         this.shopItems = [
             {
                 "name": "New weapon [same tier]",
-                "price": () => w
+                "price": () => weaponCostSame,
+                "action": () => {
+                    this.isBought = getRandomWeapon(mainHero.
