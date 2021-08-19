@@ -899,4 +899,7 @@ class ShopState extends State {
     constructor() {
         super();
         this.isBought = undefined;
-        this.shopItems =
+        this.shopItems = [
+            {
+                "name": "New weapon [same tier]",
+                "price": () => w
