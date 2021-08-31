@@ -922,4 +922,6 @@ class ShopState extends State {
                 }
             },
             {
-                "name": "New 
+                "name": "New armor [higher tier]",
+                "price": () => armorCostUp,
+                "action": () => {
