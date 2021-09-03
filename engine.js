@@ -930,4 +930,6 @@ class ShopState extends State {
             },
             {
                 "name": "New spell",
-                "price": () => ma
+                "price": () => magicCost,
+                "action": () => {
+                    this.isBought 
