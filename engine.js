@@ -936,4 +936,7 @@ class ShopState extends State {
                 }
             },
             {
-                "name": "Random po
+                "name": "Random potion",
+                "price": () => potionCost,
+                "action": () => {
+                    this.i
