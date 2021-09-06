@@ -950,4 +950,6 @@ class ShopState extends State {
                 }
             },
             {
-     
+                "name": "I wish I was faster",
+                "price": () => statCost,
+               
