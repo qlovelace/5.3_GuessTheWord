@@ -960,4 +960,9 @@ class ShopState extends State {
                 "name": "I wish I had more endurance",
                 "price": () => statCost,
                 "action": () => {
-                    this.isBought = incStat(
+                    this.isBought = incStat(3);
+                }
+            },
+            {
+                "name": "I wish I was smarter",
+        
