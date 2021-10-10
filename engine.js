@@ -986,4 +986,8 @@ class ShopState extends State {
             case 13:
                 this.shopItems[this.fieldFocus]["action"]();
                 break;
-            case
+            case 27: //Esc - exit
+                scene.setState(game);
+                break;
+        }
+        if 
