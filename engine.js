@@ -983,4 +983,7 @@ class ShopState extends State {
                 this.fieldFocus++;
                 break;
             case 32: //space and enter
-            case 13
+            case 13:
+                this.shopItems[this.fieldFocus]["action"]();
+                break;
+            case
