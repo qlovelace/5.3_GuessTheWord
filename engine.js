@@ -977,4 +977,7 @@ class ShopState extends State {
     keyHandler(scene, event) {
         switch (event.keyCode) {
             case 38: //arrow up
-   
+                this.fieldFocus--;
+                break;
+            case 40: //arrow down
+          
