@@ -992,4 +992,9 @@ class ShopState extends State {
         }
         if (this.fieldFocus < 0)
             this.fieldFocus = this.shopItems.length - 1;
-        if (this.fieldFocus >= 
+        if (this.fieldFocus >= this.shopItems.length)
+            this.fieldFocus = 0;
+        scene.update();
+    }
+
+    get events()
