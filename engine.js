@@ -997,4 +997,11 @@ class ShopState extends State {
         scene.update();
     }
 
-    get events()
+    get events() {
+        return {
+            keyup: this.keyHandler,
+        }
+    }
+
+    update(context) {
+        context.clea
