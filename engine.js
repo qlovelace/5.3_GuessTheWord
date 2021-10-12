@@ -990,4 +990,6 @@ class ShopState extends State {
                 scene.setState(game);
                 break;
         }
-        if 
+        if (this.fieldFocus < 0)
+            this.fieldFocus = this.shopItems.length - 1;
+        if (this.fieldFocus >= 
