@@ -1010,4 +1010,8 @@ class ShopState extends State {
         context.textAlign = "center";
 
         context.fillText("Random shop", 500, 40);
-        co
+        context.fillText(`You have: ${mainHero.gold}`, 500, 600);
+
+        context.textAlign = "left";
+
+   
