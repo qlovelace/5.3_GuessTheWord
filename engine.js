@@ -1015,4 +1015,8 @@ class ShopState extends State {
         context.textAlign = "left";
 
         context.font = "36px manaspc";
-        context.fillText("What do you want, stranger
+        context.fillText("What do you want, stranger?", 10, 90);
+
+        context.font = "18px manaspc";
+        for (let i in this.shopItems) {
+    
