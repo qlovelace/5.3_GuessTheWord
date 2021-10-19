@@ -1019,4 +1019,6 @@ class ShopState extends State {
 
         context.font = "18px manaspc";
         for (let i in this.shopItems) {
-    
+            let selected = i == this.fieldFocus;
+            let itemY = 132 + i*(18 + 2);
+            conte
