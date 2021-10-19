@@ -1021,4 +1021,5 @@ class ShopState extends State {
         for (let i in this.shopItems) {
             let selected = i == this.fieldFocus;
             let itemY = 132 + i*(18 + 2);
-            conte
+            context.fillStyle = selected ? "yellow" : "white";
+            context.fillText(`${
