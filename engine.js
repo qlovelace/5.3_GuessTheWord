@@ -1022,4 +1022,6 @@ class ShopState extends State {
             let selected = i == this.fieldFocus;
             let itemY = 132 + i*(18 + 2);
             context.fillStyle = selected ? "yellow" : "white";
-            context.fillText(`${
+            context.fillText(`${this.shopItems[i]["name"]}`, 10, itemY);
+            if (selected) {
+                context.textAlign = "righ
