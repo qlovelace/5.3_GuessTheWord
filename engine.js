@@ -1026,4 +1026,7 @@ class ShopState extends State {
             if (selected) {
                 context.textAlign = "right";
                 context.fillText(`${this.shopItems[i]["price"]()}`, 980, itemY);
-    
+                context.textAlign = "left";
+            }
+        }
+        context.fillStyle = "white";
