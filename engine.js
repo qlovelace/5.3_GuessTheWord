@@ -1024,4 +1024,6 @@ class ShopState extends State {
             context.fillStyle = selected ? "yellow" : "white";
             context.fillText(`${this.shopItems[i]["name"]}`, 10, itemY);
             if (selected) {
-                context.textAlign = "righ
+                context.textAlign = "right";
+                context.fillText(`${this.shopItems[i]["price"]()}`, 980, itemY);
+    
