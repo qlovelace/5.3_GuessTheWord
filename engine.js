@@ -1032,4 +1032,7 @@ class ShopState extends State {
         context.fillStyle = "white";
         if (this.isBought) {
             context.font = "24px manaspc";
-            context.fil
+            context.fillText(`Your buy successful!`, 10, 500);
+            this.isBought = !this.isBought;
+        }
+        
