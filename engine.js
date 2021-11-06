@@ -1037,4 +1037,7 @@ class ShopState extends State {
         }
         else if (this.isBought === false) {
             context.font = "24px manaspc";
-            context.fi
+            context.fillText(`Not enough gold!`, 10, 500);
+            this.isBought = null;
+        }
+        sup
