@@ -1040,4 +1040,10 @@ class ShopState extends State {
             context.fillText(`Not enough gold!`, 10, 500);
             this.isBought = null;
         }
-        sup
+        super.update(context);
+    }
+}
+
+class CheatsState extends State {
+    constructor() {
+        super()
