@@ -1046,4 +1046,8 @@ class ShopState extends State {
 
 class CheatsState extends State {
     constructor() {
-        super()
+        super();
+        this.fieldFocus = 0;
+        this.fields = [{
+            type: "text",
+            n
