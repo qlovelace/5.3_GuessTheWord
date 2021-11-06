@@ -1050,4 +1050,10 @@ class CheatsState extends State {
         this.fieldFocus = 0;
         this.fields = [{
             type: "text",
-            n
+            name: "Enter cheat code:",
+            val: "",
+        }];
+    }
+
+    get events() {
+        return {
