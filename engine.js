@@ -1057,3 +1057,7 @@ class CheatsState extends State {
 
     get events() {
         return {
+            keyup: this.keyHandler,
+            keypress: this.typeHandler,
+        }
+  
