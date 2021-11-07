@@ -1064,4 +1064,5 @@ class CheatsState extends State {
 
     typeHandler(scene, event) {
         if (this.fields[this.fieldFocus].type === "text") {
-   
+            if (event.key !== "Enter" && event.key !== "Backspace")
+                this.fields
