@@ -1060,4 +1060,8 @@ class CheatsState extends State {
             keyup: this.keyHandler,
             keypress: this.typeHandler,
         }
-  
+    }
+
+    typeHandler(scene, event) {
+        if (this.fields[this.fieldFocus].type === "text") {
+   
