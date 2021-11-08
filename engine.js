@@ -1070,4 +1070,7 @@ class CheatsState extends State {
         scene.update();
     }
 
-    keyHandler(scene, even
+    keyHandler(scene, event) {
+        switch (event.keyCode) {
+            case 27: //escape
+                scene.setSta
