@@ -1073,4 +1073,7 @@ class CheatsState extends State {
     keyHandler(scene, event) {
         switch (event.keyCode) {
             case 27: //escape
-                scene.setSta
+                scene.setState(game);
+                break;
+            case 8: //backspace
+                if (this.f
