@@ -1076,4 +1076,6 @@ class CheatsState extends State {
                 scene.setState(game);
                 break;
             case 8: //backspace
-                if (this.f
+                if (this.fields[this.fieldFocus].type === "text") {
+                    this.fields[this.fieldFocus].val =
+  
