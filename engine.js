@@ -1078,4 +1078,4 @@ class CheatsState extends State {
             case 8: //backspace
                 if (this.fields[this.fieldFocus].type === "text") {
                     this.fields[this.fieldFocus].val =
-  
+                        this.fields[this.fieldFocus].val.substr(0, this.fields[this.field
