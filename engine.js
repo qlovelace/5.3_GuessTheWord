@@ -1081,4 +1081,7 @@ class CheatsState extends State {
                         this.fields[this.fieldFocus].val.substr(0, this.fields[this.fieldFocus].val.length - 1);
                 }
                 break;
-            case 38: //ar
+            case 38: //arrow up
+                this.fieldFocus--;
+                break;
+            case 40: //arro
