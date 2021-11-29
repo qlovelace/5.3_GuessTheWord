@@ -1084,4 +1084,8 @@ class CheatsState extends State {
             case 38: //arrow up
                 this.fieldFocus--;
                 break;
-            case 40: //arro
+            case 40: //arrow down
+                this.fieldFocus++;
+                break;
+            case 32: //space
+      
