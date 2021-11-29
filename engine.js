@@ -1089,4 +1089,7 @@ class CheatsState extends State {
                 break;
             case 32: //space
                 if (this.fields[this.fieldFocus].type === "text") {
-                    this.fields[this.field
+                    this.fields[this.fieldFocus].val += " ";
+                }
+                break;
+            c
