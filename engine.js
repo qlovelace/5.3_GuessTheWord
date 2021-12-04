@@ -1092,4 +1092,6 @@ class CheatsState extends State {
                     this.fields[this.fieldFocus].val += " ";
                 }
                 break;
-            c
+            case 13: // Enter
+                if (firebase) {
+                    // Of course this code won'
