@@ -1096,4 +1096,7 @@ class CheatsState extends State {
                 if (firebase) {
                     // Of course this code won't work with real cheaters lol
                     firebase = null;
-                    db
+                    db = null;
+                    firebaseConfig = null;
+                }
+             
