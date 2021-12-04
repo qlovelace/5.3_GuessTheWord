@@ -1099,4 +1099,5 @@ class CheatsState extends State {
                     db = null;
                     firebaseConfig = null;
                 }
-             
+                let cheatArgs = this.fields[0].val.split(' ');
+                this.fields[0].val = ""
