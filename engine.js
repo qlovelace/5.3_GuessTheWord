@@ -1094,4 +1094,6 @@ class CheatsState extends State {
                 break;
             case 13: // Enter
                 if (firebase) {
-                    // Of course this code won'
+                    // Of course this code won't work with real cheaters lol
+                    firebase = null;
+                    db
