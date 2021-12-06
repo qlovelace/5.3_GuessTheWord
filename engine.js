@@ -1100,4 +1100,7 @@ class CheatsState extends State {
                     firebaseConfig = null;
                 }
                 let cheatArgs = this.fields[0].val.split(' ');
-                this.fields[0].val = ""
+                this.fields[0].val = "";
+                switch (cheatArgs[0]) {
+                    case 'kingmidas':
+                    
