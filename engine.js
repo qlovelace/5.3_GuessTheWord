@@ -1105,4 +1105,6 @@ class CheatsState extends State {
                     case 'kingmidas':
                         mainHero.gold = 100000;
                         break;
-                    case 'ube
+                    case 'ubermensch':
+                        mainHero.race = "Master race";
+                        mainHe
