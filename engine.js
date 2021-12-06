@@ -1103,4 +1103,6 @@ class CheatsState extends State {
                 this.fields[0].val = "";
                 switch (cheatArgs[0]) {
                     case 'kingmidas':
-                    
+                        mainHero.gold = 100000;
+                        break;
+                    case 'ube
