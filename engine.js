@@ -1107,4 +1107,6 @@ class CheatsState extends State {
                         break;
                     case 'ubermensch':
                         mainHero.race = "Master race";
-                        mainHe
+                        mainHero.clearStrength = 100;
+                        mainHero.clearAgility = 100;
+                     
