@@ -1111,4 +1111,7 @@ class CheatsState extends State {
                         mainHero.clearAgility = 100;
                         mainHero.clearEndur = 100;
                         mainHero.clearInt = 100;
-                        main
+                        mainHero.initiativeBuff = 100;
+                        break;
+                    case 'archimage':
+      
