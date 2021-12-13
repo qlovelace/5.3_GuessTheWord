@@ -1109,4 +1109,6 @@ class CheatsState extends State {
                         mainHero.race = "Master race";
                         mainHero.clearStrength = 100;
                         mainHero.clearAgility = 100;
-                     
+                        mainHero.clearEndur = 100;
+                        mainHero.clearInt = 100;
+                        main
