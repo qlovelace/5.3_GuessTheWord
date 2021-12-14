@@ -1119,4 +1119,6 @@ class CheatsState extends State {
                     case 'longlive':
                         mainHero.hp = 100;
                         break;
-         
+                    case 'ghost':
+                        mainHero.race = "Dead soul";
+                        mainHero.isDead 
