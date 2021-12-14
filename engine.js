@@ -1114,4 +1114,6 @@ class CheatsState extends State {
                         mainHero.initiativeBuff = 100;
                         break;
                     case 'archimage':
-      
+                        mainHero.mp = 100;
+                        break;
+                    case 'longlive'
