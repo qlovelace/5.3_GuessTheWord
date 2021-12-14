@@ -1116,4 +1116,7 @@ class CheatsState extends State {
                     case 'archimage':
                         mainHero.mp = 100;
                         break;
-                    case 'longlive'
+                    case 'longlive':
+                        mainHero.hp = 100;
+                        break;
+         
