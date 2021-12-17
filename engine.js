@@ -1124,4 +1124,6 @@ class CheatsState extends State {
                         mainHero.isDead = true;
                         mainHero.hp = 0;
                         break;
-          
+                    case 'killmeplz':
+                        scene.setState(gameOver);
+                      
