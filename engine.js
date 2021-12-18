@@ -1133,4 +1133,7 @@ class CheatsState extends State {
                         break;
                     case 'gimme_weapon':
                         let wpnId = +cheatArgs[1] || 0;
-                        m
+                        mainHero.weapon = weapons[wpnId];
+                        break;
+                    case 'gimme_armor':
+ 
