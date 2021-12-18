@@ -1126,4 +1126,6 @@ class CheatsState extends State {
                         break;
                     case 'killmeplz':
                         scene.setState(gameOver);
-                      
+                        break;
+                    case 'gimme_spell':
+                        let spellId = +cheatArgs[1] || 0;
