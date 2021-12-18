@@ -1129,3 +1129,6 @@ class CheatsState extends State {
                         break;
                     case 'gimme_spell':
                         let spellId = +cheatArgs[1] || 0;
+                        mainHero.magic = spells[spellId];
+                        break;
+                    ca
