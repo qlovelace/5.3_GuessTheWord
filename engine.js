@@ -1137,4 +1137,8 @@ class CheatsState extends State {
                         break;
                     case 'gimme_armor':
                         let armorId = +cheatArgs[1] || 0;
-                        mainHero.
+                        mainHero.armor = armor[armorId];
+                        break;
+                }
+        }
+        mainHero.upda
