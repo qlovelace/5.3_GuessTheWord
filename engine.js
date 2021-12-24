@@ -1147,4 +1147,6 @@ class CheatsState extends State {
 
     update(context) {
         if (this.fieldFocus < 0)
- 
+            this.fieldFocus = 0;
+        if (this.fieldFocus >= this.fields.length)
+            this.fieldFo
