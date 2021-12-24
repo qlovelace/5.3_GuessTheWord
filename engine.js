@@ -1141,4 +1141,10 @@ class CheatsState extends State {
                         break;
                 }
         }
-        mainHero.upda
+        mainHero.update();
+        scene.update();
+    }
+
+    update(context) {
+        if (this.fieldFocus < 0)
+ 
