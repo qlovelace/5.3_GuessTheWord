@@ -1149,4 +1149,7 @@ class CheatsState extends State {
         if (this.fieldFocus < 0)
             this.fieldFocus = 0;
         if (this.fieldFocus >= this.fields.length)
-            this.fieldFo
+            this.fieldFocus = this.fields.length - 1;
+
+        context.clearRect(0, 0, 1000, 650);
+        context.fillS
