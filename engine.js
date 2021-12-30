@@ -1154,4 +1154,8 @@ class CheatsState extends State {
         context.clearRect(0, 0, 1000, 650);
         context.fillStyle = "white";
         context.font = "48px manaspc";
-        context.textAlign = "center"
+        context.textAlign = "center";
+        context.fillText("Cheats", 470, 40);
+        context.font = "24px manaspc";
+
+        context.fillStyle = "red";
