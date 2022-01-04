@@ -1163,4 +1163,6 @@ class CheatsState extends State {
         context.fillStyle = "white";
 
         context.strokeStyle = "white";
-      
+        context.lineWidth = 2;
+        context.textAlign = "left";
+        for (let i = 0; i < thi
