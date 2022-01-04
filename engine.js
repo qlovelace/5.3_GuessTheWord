@@ -1160,4 +1160,7 @@ class CheatsState extends State {
 
         context.fillStyle = "red";
         context.fillText("With great power comes great responsibility!", 470, 540);
-    
+        context.fillStyle = "white";
+
+        context.strokeStyle = "white";
+      
