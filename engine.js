@@ -1165,4 +1165,7 @@ class CheatsState extends State {
         context.strokeStyle = "white";
         context.lineWidth = 2;
         context.textAlign = "left";
-        for (let i = 0; i < thi
+        for (let i = 0; i < this.fields.length; ++i) {
+            switch (this.fields[i].type) {
+                case "text":
+      
