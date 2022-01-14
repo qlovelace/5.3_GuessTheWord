@@ -1171,4 +1171,6 @@ class CheatsState extends State {
                     context.fillText(this.fields[i].name, 202, 130 + (i * 2) * 25, 598);
                     context.beginPath();
                     context.rect(200, 130 + (i * 2) * 25 + 3, 600, 24);
-     
+                    context.stroke();
+                    let fieldText = this.fields[i].val;
+                    if
