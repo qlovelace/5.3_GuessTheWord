@@ -1179,4 +1179,7 @@ class CheatsState extends State {
                     if (this.fieldFocus === i) {
                         fieldText += '_';
                     }
-                    context.fillTe
+                    context.fillText(fieldText, 202, 130 + (i * 2 + 1) * 25 - 2, 598);
+                    break;
+                case "button":
+   
