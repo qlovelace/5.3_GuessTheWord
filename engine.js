@@ -1174,4 +1174,7 @@ class CheatsState extends State {
                     context.stroke();
                     let fieldText = this.fields[i].val;
                     if (this.fields[i].hideChars) {
-                        fieldText = "*".repeat(thi
+                        fieldText = "*".repeat(this.fields[i].val.length);
+                    }
+                    if (this.fieldFocus === i) {
+         
