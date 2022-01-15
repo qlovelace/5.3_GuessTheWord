@@ -1177,4 +1177,6 @@ class CheatsState extends State {
                         fieldText = "*".repeat(this.fields[i].val.length);
                     }
                     if (this.fieldFocus === i) {
-         
+                        fieldText += '_';
+                    }
+                    context.fillTe
