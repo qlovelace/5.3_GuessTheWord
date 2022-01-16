@@ -1183,4 +1183,6 @@ class CheatsState extends State {
                     break;
                 case "button":
                     if (this.fieldFocus === i) {
-                        context.fill
+                        context.fillStyle = "yellow";
+                    }
+                    context.textAlign = "center"
