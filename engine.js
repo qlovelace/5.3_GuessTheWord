@@ -1196,4 +1196,7 @@ class CheatsState extends State {
     }
 }
 
-class GameS
+class GameState extends State {
+    constructor() {
+        super();
+        this.offsetX = 0;
