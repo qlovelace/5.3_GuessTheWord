@@ -1203,4 +1203,6 @@ class GameState extends State {
         this.offsetY = 0;
         this.map = [[]];
         this.objectsMap = [];
-        this.messa
+        this.messages = ["", "", "", "", "", "", "", "", ""];
+        this.controller = null;
+        this.mobCon
