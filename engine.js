@@ -1205,4 +1205,8 @@ class GameState extends State {
         this.objectsMap = [];
         this.messages = ["", "", "", "", "", "", "", "", ""];
         this.controller = null;
-        this.mobCon
+        this.mobController = null;
+        this.ctx = null;
+        this.fieldHeight = 30;
+        this.fieldWidth = 50;
+ 
