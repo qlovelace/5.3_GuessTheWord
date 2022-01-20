@@ -1200,3 +1200,7 @@ class GameState extends State {
     constructor() {
         super();
         this.offsetX = 0;
+        this.offsetY = 0;
+        this.map = [[]];
+        this.objectsMap = [];
+        this.messa
