@@ -1209,4 +1209,5 @@ class GameState extends State {
         this.ctx = null;
         this.fieldHeight = 30;
         this.fieldWidth = 50;
- 
+        this.centerY = (this.fieldHeight / 2) >> 0;
+        this.centerX = (this.fieldWidth 
