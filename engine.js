@@ -1213,4 +1213,9 @@ class GameState extends State {
         this.centerX = (this.fieldWidth / 2) >> 0;
         this.centerRectH = 11;
         this.centerRectW = 17;
-        this.spellA
+        this.spellAwaiting = null;
+    }
+
+    newCave() {
+        let cave = dungeonGeneration.generateCave(depth);
+        this.map = c
