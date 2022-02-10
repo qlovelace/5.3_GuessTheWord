@@ -1220,4 +1220,6 @@ class GameState extends State {
         let cave = dungeonGeneration.generateCave(depth);
         this.map = cave[0];
         this.objectsMap = dungeonGeneration.generateObjects();
-        this.objectsMap[0].x = c
+        this.objectsMap[0].x = cave[1];
+        this.objectsMap[0].y = cave[2];
+        this.controller = new Controller(this.objectsM
