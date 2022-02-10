@@ -1218,4 +1218,6 @@ class GameState extends State {
 
     newCave() {
         let cave = dungeonGeneration.generateCave(depth);
-        this.map = c
+        this.map = cave[0];
+        this.objectsMap = dungeonGeneration.generateObjects();
+        this.objectsMap[0].x = c
