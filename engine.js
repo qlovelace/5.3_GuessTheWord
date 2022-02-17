@@ -1223,4 +1223,6 @@ class GameState extends State {
         this.objectsMap[0].x = cave[1];
         this.objectsMap[0].y = cave[2];
         this.controller = new Controller(this.objectsMap[0], this.map, this.objectsMap);
-        this.mobController = new MobController(this.map, thi
+        this.mobController = new MobController(this.map, this.objectsMap);
+        let player = this.objectsMap[0];
+        this.offsetX = player.x - this.cent
