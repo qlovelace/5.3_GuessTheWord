@@ -1228,4 +1228,10 @@ class GameState extends State {
         this.offsetX = player.x - this.centerX;
         this.offsetY = player.y - this.centerY;
         this.checkOffsetBorders();
-        
+        this.calcVisited();
+    }
+
+    startGame() {
+        depth = 1;
+        this.newCave();
+        this.messages 
