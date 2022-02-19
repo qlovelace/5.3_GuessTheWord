@@ -1234,4 +1234,7 @@ class GameState extends State {
     startGame() {
         depth = 1;
         this.newCave();
-        this.messages 
+        this.messages = ["", "", "", "", "", "", "", "", ""];
+        potionCost = 50;
+        statCost = 50;
+  
