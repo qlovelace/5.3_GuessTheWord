@@ -1225,4 +1225,7 @@ class GameState extends State {
         this.controller = new Controller(this.objectsMap[0], this.map, this.objectsMap);
         this.mobController = new MobController(this.map, this.objectsMap);
         let player = this.objectsMap[0];
-        this.offsetX = player.x - this.cent
+        this.offsetX = player.x - this.centerX;
+        this.offsetY = player.y - this.centerY;
+        this.checkOffsetBorders();
+        
