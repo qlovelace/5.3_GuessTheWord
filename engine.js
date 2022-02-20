@@ -1237,4 +1237,7 @@ class GameState extends State {
         this.messages = ["", "", "", "", "", "", "", "", ""];
         potionCost = 50;
         statCost = 50;
-  
+        weaponCostSame = 75;
+        armorCostSame = 75;
+        armorCostUp = 50;
+        weaponCostU
