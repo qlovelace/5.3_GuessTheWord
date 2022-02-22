@@ -1242,4 +1242,8 @@ class GameState extends State {
         armorCostUp = 50;
         weaponCostUp = 50;
         magicCost = 40;
-        this.pushMessage(`(Welcome to the ){white}(depth ${d
+        this.pushMessage(`(Welcome to the ){white}(depth ${depth}!){red}`);
+        this.pushMessage(`(To get help press '?'){white}`);
+    }
+
+    newLeve
