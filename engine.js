@@ -1246,4 +1246,8 @@ class GameState extends State {
         this.pushMessage(`(To get help press '?'){white}`);
     }
 
-    newLeve
+    newLevel() {
+        depth++;
+        this.newCave();
+        this.checkOffsetBorders();
+        this.pushMessage(`(
