@@ -1240,4 +1240,6 @@ class GameState extends State {
         weaponCostSame = 75;
         armorCostSame = 75;
         armorCostUp = 50;
-        weaponCostU
+        weaponCostUp = 50;
+        magicCost = 40;
+        this.pushMessage(`(Welcome to the ){white}(depth ${d
