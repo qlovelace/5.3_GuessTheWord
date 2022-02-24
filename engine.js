@@ -1261,4 +1261,8 @@ class GameState extends State {
         if (this.offsetX + this.fieldWidth > mapW) {
             this.offsetX = mapW - this.fieldWidth;
         }
-        
+        if (this.offsetX < 0) {
+            this.offsetX = 0;
+        }
+
+        if (this.offsetY + this.f
