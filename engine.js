@@ -1255,3 +1255,7 @@ class GameState extends State {
 
     checkOffsetBorders() {
         //checking borders
+        let mapW = this.map[0].length;
+        let mapH = this.map.length;
+
+        if (this.offsetX
