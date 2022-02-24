@@ -1258,4 +1258,7 @@ class GameState extends State {
         let mapW = this.map[0].length;
         let mapH = this.map.length;
 
-        if (this.offsetX
+        if (this.offsetX + this.fieldWidth > mapW) {
+            this.offsetX = mapW - this.fieldWidth;
+        }
+        
