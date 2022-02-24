@@ -1250,4 +1250,8 @@ class GameState extends State {
         depth++;
         this.newCave();
         this.checkOffsetBorders();
-        this.pushMessage(`(
+        this.pushMessage(`(Welcome to the ){white}(depth ${depth}!){red}`);
+    }
+
+    checkOffsetBorders() {
+        //checking borders
