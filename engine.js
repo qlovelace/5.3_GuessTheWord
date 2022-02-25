@@ -1274,4 +1274,5 @@ class GameState extends State {
     }
 
     calcOffset() {
-   
+        if (!this.objectsMap) {
+            alert("Something wrong happened, please reload the pa
