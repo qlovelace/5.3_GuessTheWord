@@ -1268,4 +1268,10 @@ class GameState extends State {
         if (this.offsetY + this.fieldHeight > mapH) {
             this.offsetY = mapH - this.fieldHeight;
         }
-        i
+        if (this.offsetY < 0) {
+            this.offsetY = 0;
+        }
+    }
+
+    calcOffset() {
+   
