@@ -1275,4 +1275,9 @@ class GameState extends State {
 
     calcOffset() {
         if (!this.objectsMap) {
-            alert("Something wrong happened, please reload the pa
+            alert("Something wrong happened, please reload the page");
+            return;
+        }
+        let player = this.objectsMap[0];
+
+        let centerRectX = this.offset
