@@ -1281,4 +1281,5 @@ class GameState extends State {
         let player = this.objectsMap[0];
 
         let centerRectX = this.offsetX + ((this.fieldWidth - this.centerRectW) / 2) >> 0;
-        let centerRectY = this.offsetY + ((
+        let centerRectY = this.offsetY + ((this.fieldHeight - this.centerRectH) / 2) >> 0;
+        let mapW = this.map[0].length;
