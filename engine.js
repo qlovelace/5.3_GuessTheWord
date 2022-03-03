@@ -1286,4 +1286,8 @@ class GameState extends State {
         let mapH = this.map.length;
 
         if (player.x < centerRectX) {
-            if (this.o
+            if (this.offsetX > 0) {
+                this.offsetX--;
+            }
+        }
+        if (player.x 
