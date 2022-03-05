@@ -1292,4 +1292,9 @@ class GameState extends State {
         }
         if (player.x >= centerRectX + this.centerRectW) {
             if (this.offsetX + this.fieldWidth < mapW) {
-  
+                this.offsetX++;
+            }
+        }
+
+        if (player.y < centerRectY) {
+        
