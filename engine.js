@@ -1301,4 +1301,6 @@ class GameState extends State {
                 this.offsetY--;
             }
         }
-        if (player.y >= cen
+        if (player.y >= centerRectY + this.centerRectH) {
+            if (this.offsetY + this.fieldHeight < mapH) {
+                
