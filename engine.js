@@ -1310,3 +1310,6 @@ class GameState extends State {
     }
 
     calcVisited() {
+        let mapW = this.map[0].length;
+        let mapH = this.map.length;
+        let player = this.objectsMa
