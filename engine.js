@@ -1312,4 +1312,6 @@ class GameState extends State {
     calcVisited() {
         let mapW = this.map[0].length;
         let mapH = this.map.length;
-        let player = this.objectsMa
+        let player = this.objectsMap[0];
+        let startX = Math.max(0, player.x - player.fogRad);
+        let startY = Math.max(0, player.y - pl
