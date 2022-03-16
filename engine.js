@@ -1320,4 +1320,5 @@ class GameState extends State {
 
 
         for (let y = startY; y <= endY; ++y) {
-            
+            for (let x = startX; x <= endX; ++x) {
+                if (Math.sqrt((x - player.x) ** 2 + (y - player.
