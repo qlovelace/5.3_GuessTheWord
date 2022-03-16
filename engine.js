@@ -1316,4 +1316,8 @@ class GameState extends State {
         let startX = Math.max(0, player.x - player.fogRad);
         let startY = Math.max(0, player.y - player.fogRad);
         let endX = Math.min(mapW - 1, player.x + player.fogRad);
-        let endY = Math.min(mapH - 1
+        let endY = Math.min(mapH - 1, player.y + player.fogRad);
+
+
+        for (let y = startY; y <= endY; ++y) {
+            
