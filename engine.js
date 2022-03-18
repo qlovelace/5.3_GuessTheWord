@@ -1327,4 +1327,7 @@ class GameState extends State {
         }
     }
 
-    isVisibleF
+    isVisibleForPlayer(x, y) {
+        let player = this.objectsMap[0];
+
+        return Math.sqrt((x 
