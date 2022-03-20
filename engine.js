@@ -1330,4 +1330,8 @@ class GameState extends State {
     isVisibleForPlayer(x, y) {
         let player = this.objectsMap[0];
 
-        return Math.sqrt((x 
+        return Math.sqrt((x - player.x) ** 2 + (y - player.y) ** 2) <= player.fogRad;
+    }
+
+    setNewMap() {
+        this.map = dunge
