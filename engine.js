@@ -1338,4 +1338,7 @@ class GameState extends State {
         this.objectsMap = dungeonGeneration.generateObjects();
     }
 
-    pushMessage
+    pushMessage(text) {
+        this.messages[7] = this.messages[6];
+        this.messages[6] = this.messages[5];
+        this.mes
