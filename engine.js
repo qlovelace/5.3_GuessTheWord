@@ -1334,4 +1334,8 @@ class GameState extends State {
     }
 
     setNewMap() {
-        this.map = dunge
+        this.map = dungeonGeneration.generateCave();
+        this.objectsMap = dungeonGeneration.generateObjects();
+    }
+
+    pushMessage
