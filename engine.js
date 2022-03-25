@@ -1343,4 +1343,6 @@ class GameState extends State {
         this.messages[6] = this.messages[5];
         this.messages[5] = this.messages[4];
         this.messages[4] = this.messages[3];
-        this.messages[3
+        this.messages[3] = this.messages[2];
+        this.messages[2] = this.messages[1];
+        this.messages[1
