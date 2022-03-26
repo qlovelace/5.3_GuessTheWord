@@ -1349,4 +1349,12 @@ class GameState extends State {
 
         this.messages[0] = text;
         if (this.ctx !== null) {
-            this.update
+            this.update(this.ctx);
+        }
+
+        //alert(this.messages);
+    }
+
+
+    drawRMenu(context) {
+        context.fillSt
