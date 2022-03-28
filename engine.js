@@ -1360,4 +1360,7 @@ class GameState extends State {
         context.fillStyle = "black";
         context.fillRect(0, 0, 1000, 650);
         context.fillStyle = 'white';
-        contex
+        context.fillRect(805, 5, 190, 475);
+        context.fillStyle = "black";
+        context.fillRect(807, 7, 186, 471);
+
