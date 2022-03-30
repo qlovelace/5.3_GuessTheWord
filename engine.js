@@ -1364,3 +1364,6 @@ class GameState extends State {
         context.fillStyle = "black";
         context.fillRect(807, 7, 186, 471);
 
+        context.fillStyle = "white";
+        context.font = "24px manaspc";
+        if (this.objects
