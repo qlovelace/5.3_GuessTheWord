@@ -1366,4 +1366,5 @@ class GameState extends State {
 
         context.fillStyle = "white";
         context.font = "24px manaspc";
-        if (this.objects
+        if (this.objectsMap[0] !== undefined) {
+            context.fillText(this.objectsMap[0].name, 815, 3
