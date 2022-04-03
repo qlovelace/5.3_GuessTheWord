@@ -1368,4 +1368,5 @@ class GameState extends State {
         context.font = "24px manaspc";
         if (this.objectsMap[0] !== undefined) {
             context.fillText(this.objectsMap[0].name, 815, 35);
-            context.fillText("HP:" + this.objectsMap[0].hp + '/' + this.objectsMap[0].maxH
+            context.fillText("HP:" + this.objectsMap[0].hp + '/' + this.objectsMap[0].maxHP, 820, 70);
+            context.fillText("MP:" + this.objectsMap[0].mp + '/' + this.objectsM
