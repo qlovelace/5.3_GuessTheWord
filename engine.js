@@ -1369,4 +1369,5 @@ class GameState extends State {
         if (this.objectsMap[0] !== undefined) {
             context.fillText(this.objectsMap[0].name, 815, 35);
             context.fillText("HP:" + this.objectsMap[0].hp + '/' + this.objectsMap[0].maxHP, 820, 70);
-            context.fillText("MP:" + this.objectsMap[0].mp + '/' + this.objectsM
+            context.fillText("MP:" + this.objectsMap[0].mp + '/' + this.objectsMap[0].maxMP, 820, 100);
+            context.fillText(`Gold:${this.objectsMap[0].gold}`, 820,
