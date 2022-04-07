@@ -1377,4 +1377,5 @@ class GameState extends State {
 
             context.textAlign = "left";
 
-            game.drawMessag
+            game.drawMessage(`(HP ){green} (potions: ${mainHero.hpPotions}){white}`, 820, 200, context);
+            game.drawMessage(`(MP){b
