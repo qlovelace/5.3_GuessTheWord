@@ -1373,4 +1373,8 @@ class GameState extends State {
             context.fillText(`Gold:${this.objectsMap[0].gold}`, 820, 130);
 
             context.font = "16px manaspc";
-            context.fillText("Inventory:", 
+            context.fillText("Inventory:", 820, 170);
+
+            context.textAlign = "left";
+
+            game.drawMessag
