@@ -1370,4 +1370,7 @@ class GameState extends State {
             context.fillText(this.objectsMap[0].name, 815, 35);
             context.fillText("HP:" + this.objectsMap[0].hp + '/' + this.objectsMap[0].maxHP, 820, 70);
             context.fillText("MP:" + this.objectsMap[0].mp + '/' + this.objectsMap[0].maxMP, 820, 100);
-            context.fillText(`Gold:${this.objectsMap[0].gold}`, 820,
+            context.fillText(`Gold:${this.objectsMap[0].gold}`, 820, 130);
+
+            context.font = "16px manaspc";
+            context.fillText("Inventory:", 
