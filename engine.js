@@ -1380,4 +1380,6 @@ class GameState extends State {
             game.drawMessage(`(HP ){green} (potions: ${mainHero.hpPotions}){white}`, 820, 200, context);
             game.drawMessage(`(MP){blue} ( potions: ${mainHero.mpPotions}){white}`, 820, 220, context);
 
-            game.drawMes
+            game.drawMessage(`(Armor:){#FFB459}`, 820, 270, context);
+            context.fillStyle = "white";
+            context.
