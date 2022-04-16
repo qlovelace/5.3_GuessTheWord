@@ -1382,4 +1382,6 @@ class GameState extends State {
 
             game.drawMessage(`(Armor:){#FFB459}`, 820, 270, context);
             context.fillStyle = "white";
-            context.
+            context.fillText(`${mainHero.armor.name}`, 820, 290);
+
+            game.drawMessage(`(Weapon:){#FFB459}`, 82
