@@ -1386,4 +1386,6 @@ class GameState extends State {
 
             game.drawMessage(`(Weapon:){#FFB459}`, 820, 320, context);
             context.fillStyle = "white";
-            context.fillText(`${mainH
+            context.fillText(`${mainHero.weapon.name}`, 820, 340);
+
+            game.drawMessage(`(Spell:){#FFB459}`, 820, 3
