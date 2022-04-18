@@ -1394,4 +1394,5 @@ class GameState extends State {
 
             if (mainHero.effect !== null && mainHero.effect.length !== 0) {
                 game.drawMessage(`(Buff:){#FFB459}`, 820, 420, context);
-                contex
+                context.fillStyle = "white";
+                game.drawMessage(`(${mainHero.effect.name}){${mainHero.effect.col
