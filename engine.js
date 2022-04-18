@@ -1390,4 +1390,7 @@ class GameState extends State {
 
             game.drawMessage(`(Spell:){#FFB459}`, 820, 370, context);
             context.fillStyle = "white";
-            context.fillText(`${mainHero.magic.name}`, 82
+            context.fillText(`${mainHero.magic.name}`, 820, 390);
+
+            if (mainHero.effect !== null && mainHero.effect.length !== 0) {
+   
