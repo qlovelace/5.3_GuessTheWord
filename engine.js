@@ -1393,4 +1393,5 @@ class GameState extends State {
             context.fillText(`${mainHero.magic.name}`, 820, 390);
 
             if (mainHero.effect !== null && mainHero.effect.length !== 0) {
-   
+                game.drawMessage(`(Buff:){#FFB459}`, 820, 420, context);
+                contex
