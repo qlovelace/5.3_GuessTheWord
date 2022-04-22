@@ -1404,4 +1404,7 @@ class GameState extends State {
     drawMessage(str, x, y, context, textSize = 0) {
         let lastFillstyle = context.fillStyle;
         if(textSize !== 0){
-            context.context.fon
+            context.context.font = `${textSize}px manaspc`;
+        }
+        // input str = (/* text string */){/* color */}
+        let r
