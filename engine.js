@@ -1396,4 +1396,10 @@ class GameState extends State {
                 game.drawMessage(`(Buff:){#FFB459}`, 820, 420, context);
                 context.fillStyle = "white";
                 game.drawMessage(`(${mainHero.effect.name}){${mainHero.effect.color}}`, 820, 440, context);
-                context.fillText(`(${mainHero.effect.length} turns left)`, 8
+                context.fillText(`(${mainHero.effect.length} turns left)`, 820, 460);
+            }
+        }
+    }
+
+    drawMessage(str, x, y, context, textSize = 0) {
+        let lastFi
