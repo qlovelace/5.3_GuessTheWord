@@ -1402,4 +1402,6 @@ class GameState extends State {
     }
 
     drawMessage(str, x, y, context, textSize = 0) {
-        let lastFi
+        let lastFillstyle = context.fillStyle;
+        if(textSize !== 0){
+            context.context.fon
