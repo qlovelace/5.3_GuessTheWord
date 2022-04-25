@@ -1407,4 +1407,5 @@ class GameState extends State {
             context.context.font = `${textSize}px manaspc`;
         }
         // input str = (/* text string */){/* color */}
-        let r
+        let re0 = new RegExp("\\({1}[^\\)]+\\){1}", "g");
+        //for getting array of such as ["(text
