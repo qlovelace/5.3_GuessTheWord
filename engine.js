@@ -1408,4 +1408,6 @@ class GameState extends State {
         }
         // input str = (/* text string */){/* color */}
         let re0 = new RegExp("\\({1}[^\\)]+\\){1}", "g");
-        //for getting array of such as ["(text
+        //for getting array of such as ["(text1)","(text2)"]
+        let re1 = new RegExp("\\{{1}[^\\}]+\\}{1}", "g");
+        //for getting arr
