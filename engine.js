@@ -1410,4 +1410,6 @@ class GameState extends State {
         let re0 = new RegExp("\\({1}[^\\)]+\\){1}", "g");
         //for getting array of such as ["(text1)","(text2)"]
         let re1 = new RegExp("\\{{1}[^\\}]+\\}{1}", "g");
-        //for getting arr
+        //for getting array of such as ["{color1}","{color2}"]
+        let match0 = str.match(re0);
+        //array off ["(text1)","(t
