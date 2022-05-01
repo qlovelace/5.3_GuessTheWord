@@ -1415,4 +1415,8 @@ class GameState extends State {
         //array off ["(text1)","(text2)"]
         let match1 = str.match(re1);
         //array off ["{color1}","{color2}"]
-        
+        if(!((match0 === null) || (match1 === null))){
+
+            let len = 0;
+
+            let re2 = new RegExp("[^
