@@ -1422,4 +1422,8 @@ class GameState extends State {
             let re2 = new RegExp("[^\\(\\)]+", "g");
             //for getting text from ["(text1)"] to "text1"
             let re3 = new RegExp("[^\\{\\}]+", "g");
-            //for getting text from ["{text1}"] to "tex
+            //for getting text from ["{text1}"] to "text1"
+
+            if (!match0 || !match1) return;
+
+            for (let i = 0; i < match0 == null ? 0 : Ma
