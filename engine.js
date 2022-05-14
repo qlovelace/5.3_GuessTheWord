@@ -1426,4 +1426,6 @@ class GameState extends State {
 
             if (!match0 || !match1) return;
 
-            for (let i = 0; i < match0 == null ? 0 : Ma
+            for (let i = 0; i < match0 == null ? 0 : Math.min(match0.length, match1.length); ++i) {
+                if (!match1[i] || !match0[i]) return;
+            
