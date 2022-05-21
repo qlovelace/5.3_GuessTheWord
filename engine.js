@@ -1430,4 +1430,5 @@ class GameState extends State {
                 if (!match1[i] || !match0[i]) return;
                 context.fillStyle = match1[i].match(re3)[0];
                 let text = match0[i].match(re2)[0];
-        
+                context.fillText(text, x + +len, y);
+                len = len + +context.measureText(text)
