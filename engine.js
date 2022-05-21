@@ -1428,4 +1428,6 @@ class GameState extends State {
 
             for (let i = 0; i < match0 == null ? 0 : Math.min(match0.length, match1.length); ++i) {
                 if (!match1[i] || !match0[i]) return;
-            
+                context.fillStyle = match1[i].match(re3)[0];
+                let text = match0[i].match(re2)[0];
+        
