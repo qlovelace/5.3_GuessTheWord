@@ -1436,4 +1436,10 @@ class GameState extends State {
         }
         else {
             context.fillStyle = "white";
-           
+            context.fillText(str, x, y);
+        }
+        context.fillStyle = lastFillstyle
+    }
+
+
+    drawDMen
