@@ -1445,4 +1445,6 @@ class GameState extends State {
     drawDMenu(context) {
         context.fillStyle = 'white';
         context.fillRect(5, 485, 990, 160);
-   
+        context.fillStyle = "black";
+        context.fillRect(7, 487, 986, 156);
+        contex
