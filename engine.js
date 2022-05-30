@@ -1450,4 +1450,6 @@ class GameState extends State {
         context.fillStyle = "white";
         context.font = "18px manaspc";
 
-        this.drawMessage(this.messa
+        this.drawMessage(this.messages[0], 10, 505, context);      //0
+        this.drawMessage(this.messages[1], 10, 525 - 1, context);      //1
+   
