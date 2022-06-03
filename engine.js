@@ -1456,4 +1456,5 @@ class GameState extends State {
         this.drawMessage(this.messages[3], 10, 565 - 3, context);      //3
         this.drawMessage(this.messages[4], 10, 585 - 4, context);      //4
         this.drawMessage(this.messages[5], 10, 605 - 5, context);      //5
-        this
+        this.drawMessage(this.messages[6], 10, 625 - 5, context);      //6
+        this.drawMessage(this.me
