@@ -1462,4 +1462,8 @@ class GameState extends State {
     }
 
     clearScene(context) {
-     
+        //this.ctx.fillStyle = "black";
+        context.clearRect(0, 0, context.width, context.height);
+    }
+
+ 
