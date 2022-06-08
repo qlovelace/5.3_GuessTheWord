@@ -1466,4 +1466,7 @@ class GameState extends State {
         context.clearRect(0, 0, context.width, context.height);
     }
 
- 
+    drawTexture(context, texture, x, y, visible) {
+        let ts = texture.tileSet;
+        if (visible) {
+       
