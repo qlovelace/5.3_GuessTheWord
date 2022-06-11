@@ -1469,4 +1469,4 @@ class GameState extends State {
     drawTexture(context, texture, x, y, visible) {
         let ts = texture.tileSet;
         if (visible) {
-       
+            context.drawImage(ts.image, ts.getTilePos(texture.id), 0, +ts.tileSize, +ts.tile
