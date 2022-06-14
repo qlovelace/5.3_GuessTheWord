@@ -1472,4 +1472,5 @@ class GameState extends State {
             context.drawImage(ts.image, ts.getTilePos(texture.id), 0, +ts.tileSize, +ts.tileSize,
                 x * +texture.size, y * +texture.size, +texture.size, +texture.size);
         } else if (texture.seen) {
-            context.drawImage(ts.imageVisited, ts.getTilePos(textu
+            context.drawImage(ts.imageVisited, ts.getTilePos(texture.id), 0, +ts.tileSize, +ts.tileSize,
+                x * +texture.size, y * +texture.size, +texture.size,
