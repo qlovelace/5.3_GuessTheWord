@@ -1478,3 +1478,9 @@ class GameState extends State {
             context.drawImage(ts.image, 0, 0, +ts.tileSize, +ts.tileSize,
                 x * +texture.size, y * +texture.size, +texture.size, +texture.size);
         }
+    }
+
+    updateMap(context) {
+        let startY = this.offsetY;
+        let endY = startY + this.fieldHeight - 1;
+  
