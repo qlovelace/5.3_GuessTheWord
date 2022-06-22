@@ -1490,4 +1490,6 @@ class GameState extends State {
             for (let x = startX; x <= endX; ++x) {
                 this.drawTexture(context, this.map[y][x], x - startX, y - startY, this.isVisibleForPlayer(x, y));
             }
-   
+        }
+        for (let i = 0; i < this.objectsMap.length; ++i) {
+            let 
