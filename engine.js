@@ -1483,4 +1483,7 @@ class GameState extends State {
     updateMap(context) {
         let startY = this.offsetY;
         let endY = startY + this.fieldHeight - 1;
-  
+        let startX = this.offsetX;
+        let endX = startX + this.fieldWidth - 1;
+
+        for (let y 
