@@ -1486,4 +1486,6 @@ class GameState extends State {
         let startX = this.offsetX;
         let endX = startX + this.fieldWidth - 1;
 
-        for (let y 
+        for (let y = startY; y <= endY; ++y) {
+            for (let x = startX; x <= endX; ++x) {
+                this.drawTe
