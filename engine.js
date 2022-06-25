@@ -1495,4 +1495,6 @@ class GameState extends State {
             let objX = this.objectsMap[i].x;
             let objY = this.objectsMap[i].y;
 
-            if (objX >= st
+            if (objX >= startX && objX <= endX) {
+                if (objY >= startY && objY <= endY) {
+        
