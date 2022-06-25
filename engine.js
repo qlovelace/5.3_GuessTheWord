@@ -1492,4 +1492,7 @@ class GameState extends State {
             }
         }
         for (let i = 0; i < this.objectsMap.length; ++i) {
-            let 
+            let objX = this.objectsMap[i].x;
+            let objY = this.objectsMap[i].y;
+
+            if (objX >= st
