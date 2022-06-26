@@ -1498,4 +1498,11 @@ class GameState extends State {
             if (objX >= startX && objX <= endX) {
                 if (objY >= startY && objY <= endY) {
                     if (!this.objectsMap[i].isDead && this.isVisibleForPlayer(objX, objY))
-                        this.drawTexture(context, this.objectsMap[i], objX - startX, objY - startY, t
+                        this.drawTexture(context, this.objectsMap[i], objX - startX, objY - startY, true);
+                }
+            }
+        }
+        //alert(this.map);
+    }
+
+   
