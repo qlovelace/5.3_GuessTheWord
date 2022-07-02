@@ -1505,4 +1505,9 @@ class GameState extends State {
         //alert(this.map);
     }
 
-   
+    update(context) {
+        this.ctx = context;
+        super.update(context);
+        this.clearScene(context);
+
+  
