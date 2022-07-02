@@ -1510,4 +1510,7 @@ class GameState extends State {
         super.update(context);
         this.clearScene(context);
 
-  
+        this.drawRMenu(context);
+        this.drawDMenu(context);
+        this.updateMap(context);
+    }
