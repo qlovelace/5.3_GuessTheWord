@@ -1516,4 +1516,6 @@ class GameState extends State {
     }
 
     keyHandler(scene, event) {
-        console.log("Spell key handler", this.spellAwait
+        console.log("Spell key handler", this.spellAwaiting);
+        if (this.spellAwaiting) {
+            this.spellAwaiting.keyHandler.apply(this
