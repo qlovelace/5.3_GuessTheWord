@@ -1514,3 +1514,6 @@ class GameState extends State {
         this.drawDMenu(context);
         this.updateMap(context);
     }
+
+    keyHandler(scene, event) {
+        console.log("Spell key handler", this.spellAwait
