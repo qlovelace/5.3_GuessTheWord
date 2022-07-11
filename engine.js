@@ -1521,4 +1521,6 @@ class GameState extends State {
             this.spellAwaiting.keyHandler.apply(this.spellAwaiting, [event.keyCode]);
             this.spellAwaiting = null;
         } else {
-    
+            switch (event.keyCode) {
+                case 38: //arrow up
+                    this.co
