@@ -1523,4 +1523,7 @@ class GameState extends State {
         } else {
             switch (event.keyCode) {
                 case 38: //arrow up
-                    this.co
+                    this.controller.moveU(scene);
+                    this.mobController.move(scene);
+                    break;
+   
