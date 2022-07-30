@@ -1535,4 +1535,7 @@ class GameState extends State {
                     this.mobController.move(scene);
                     break;
                 case 39://arrow r
-                    this.controller.moveR(
+                    this.controller.moveR(scene);
+                    this.mobController.move(scene);
+                    break;
+       
