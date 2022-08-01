@@ -1540,4 +1540,6 @@ class GameState extends State {
                     break;
                 case 72://h - health
                     this.controller.drinkHP();
-                    this
+                    this.mobController.move(scene);
+                    break;
+                case 77://
