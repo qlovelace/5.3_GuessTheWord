@@ -1538,4 +1538,6 @@ class GameState extends State {
                     this.controller.moveR(scene);
                     this.mobController.move(scene);
                     break;
-       
+                case 72://h - health
+                    this.controller.drinkHP();
+                    this
