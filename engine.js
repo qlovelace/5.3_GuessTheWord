@@ -1544,4 +1544,7 @@ class GameState extends State {
                     break;
                 case 77://m - mana
                     this.controller.drinkMP();
-                    this.mobControl
+                    this.mobController.move(scene);
+                    break;
+                case 79:// o - skip turn
+   
