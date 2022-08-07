@@ -1542,4 +1542,6 @@ class GameState extends State {
                     this.controller.drinkHP();
                     this.mobController.move(scene);
                     break;
-                case 77://
+                case 77://m - mana
+                    this.controller.drinkMP();
+                    this.mobControl
