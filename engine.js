@@ -1547,4 +1547,6 @@ class GameState extends State {
                     this.mobController.move(scene);
                     break;
                 case 79:// o - skip turn
-   
+                    this.mobController.move(scene);
+                    break;
+                case 80:// 
