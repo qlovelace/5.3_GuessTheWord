@@ -1551,4 +1551,7 @@ class GameState extends State {
                     break;
                 case 80:// p - prey
                     this.mobController.move(scene);
-                    this.controlle
+                    this.controller.prey(scene);
+                    break;
+                case 190://>
+                    this.cont
