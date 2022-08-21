@@ -1557,4 +1557,7 @@ class GameState extends State {
                     this.controller.enter();
                     break;
                 case 83: // s - shop
-                   
+                    scene.setState(shop);
+                    break;
+                case 191: // /(?) - help
+                
