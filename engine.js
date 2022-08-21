@@ -1554,4 +1554,7 @@ class GameState extends State {
                     this.controller.prey(scene);
                     break;
                 case 190://>
-                    this.cont
+                    this.controller.enter();
+                    break;
+                case 83: // s - shop
+                   
