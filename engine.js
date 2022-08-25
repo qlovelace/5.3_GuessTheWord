@@ -1562,4 +1562,7 @@ class GameState extends State {
                 case 191: // /(?) - help
                     scene.setState(help);
                     break;
-                case 68: // d - descriptio
+                case 68: // d - description
+                    scene.setState(description);
+                    break;
+      
