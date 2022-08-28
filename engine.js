@@ -1573,4 +1573,10 @@ class GameState extends State {
                     break;
             }
         }
-        t
+        this.calcOffset();
+        this.calcVisited();
+        scene.update();
+    }
+
+    get events() {
+   
