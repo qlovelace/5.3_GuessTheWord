@@ -1565,4 +1565,5 @@ class GameState extends State {
                 case 68: // d - description
                     scene.setState(description);
                     break;
-      
+                case 32: // space - magic
+                    this.spellAwaiting = this.controller.useSpell(scene
