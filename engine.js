@@ -1569,4 +1569,8 @@ class GameState extends State {
                     this.spellAwaiting = this.controller.useSpell(scene);
                     break;
                 case 192: //tilda
-              
+                    scene.setState(new CheatsState());
+                    break;
+            }
+        }
+        t
