@@ -1579,4 +1579,8 @@ class GameState extends State {
     }
 
     get events() {
-   
+        return {
+            keyup: this.keyHandler,
+        }
+    }
+}
