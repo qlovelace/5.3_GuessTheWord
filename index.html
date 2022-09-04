@@ -20,3 +20,99 @@
             font-family: manaspc; /* Гарнитура шрифта */
             src: url(assets/manaspc.ttf); /* Путь к файлу со шрифтом */
         }
+        .ds-text {
+            font-family: manaspc, monospace;
+            color: white;
+            margin: 10px auto 50px;
+            width: 90%;
+        }
+        .ds-text h2 {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        .ds-text p {
+            text-align: justify;
+        }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        let firebaseConfig = {
+            apiKey: "AIzaSyAoJHojUDp3ul08TAa0jdkdoju-aAAR5Bo",
+            authDomain: "dragon-shore.firebaseapp.com",
+            databaseURL: "https://dragon-shore.firebaseio.com",
+            projectId: "dragon-shore",
+            storageBucket: "dragon-shore.appspot.com",
+            messagingSenderId: "911758759933"
+        };
+        if (firebase) {
+            firebase.initializeApp(firebaseConfig);
+        }
+    </script>
+</head>
+<body>
+<div class="canvas-container">
+    <canvas id="gameBoard" width="1000" height="650" style="background: black"></canvas>
+</div>
+<div class="ds-text">
+    <h2>Dragon Shore</h2>
+    <h3>Description</h3>
+    <p>Dragon Shore is a retro styled roguelike game written on vanilla JavaScript with love and enthusiasm.</p>
+    <p>Our game is the new Interpretation of roguelikes inspired by long nights playing crawlers.</p>
+    <p>Hardcore procedure-generated dungeons with well-balanced game mechanics will give you an unforgettable experience,
+        no matter how many dungeons have you passed through.</p>
+    <br>
+    <h4>Key bindings:</h4>
+    <p>Arrows - movement</p>
+    <p>o - skip turn</p>
+    <p>h - health potion</p>
+        <p>m - mana potion</p>
+    <p>'space' - cast spell</p>
+    <p>. - descend</p>
+    <p>? - help</p>
+    <p>d - character status</p>
+    <p>s - shop</p>
+    <p>p(near shrines) - prey</p>
+    <br>
+    <h3>Our team</h3>
+    <p>We are students of the Far Eastern Federal University:</p>
+    <ul type="square" style="margin-left: 10pt;">
+        <li>Igor Balashenko (DwarfMason)</li>
+        <li>Yury Kurlykov (t1meshift)</li>
+        <li>Andrey Osadchii (smgks)</li>
+    </ul>
+    <p>Our summer practice project that became our hobby at your service!</p>
+</div>
+<div id="font-hack" style="font-family: manaspc; visibility: hidden;">.</div>
+<script src="version.js"></script>
+<script src="assets.js"></script>
+<script src="db.js"></script>
+<script src="gameObjects.js"></script>
+<script src="items.js"></script>
+<script src="buffs.js"></script>
+<script src="rollDice.js"></script>
+<script src="creatures.js"></script>
+<script src="dungeonGeneration.js"></script>
+<script src="controller.js"></script>
+<script src="engine.js"></script>
+<script>
+    window.onload = function() {
+        window.addEventListener("keydown", function(e) {
+            // space and arrow keys. backspace too.
+            if([32, 37, 38, 39, 40, 8].indexOf(e.keyCode) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+
+        credits = new CreditsState();
+        game = new GameState();
+        menu = new MenuState();
+        charCreation = new CharCreationState();
+        gameOver =  new GameOver();
+        let scene = new Scene(document.getElementById("gameBoard"));
+        shop = new ShopState();
+        help = new HelpState();
+        description = new DescriptionState();
+        settings = new SettingsState();
