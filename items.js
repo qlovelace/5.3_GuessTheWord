@@ -21,4 +21,6 @@ class Armor {
     }
 }
 
-class PoorClothes exten
+class PoorClothes extends Armor {
+    constructor() {
+        super('Poor clothes', 2, 'It smells like your cat!', 0
