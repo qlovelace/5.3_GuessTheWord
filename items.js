@@ -6,4 +6,9 @@ let maxTier = 1;
 class Armor {
     constructor(name, value, description, tier) {
         this.name = name;
-        this.v
+        this.value = value;
+        this.description = description;
+        this.tier = tier;
+    }
+
+    onEquip(ma
