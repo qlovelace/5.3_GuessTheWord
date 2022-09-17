@@ -29,4 +29,8 @@ class PoorClothes extends Armor {
 
 class LeatherPants extends Armor {
     constructor() {
-        super('Leather pa
+        super('Leather pants', 3, 'Because you did not have money for the shirt', 1);
+    }
+
+    onEquip(mainHero) {
+        
