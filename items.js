@@ -11,4 +11,14 @@ class Armor {
         this.tier = tier;
     }
 
-    onEquip(ma
+    onEquip(mainHero) {
+        return 0;
+    }
+
+
+    onChange(mainHero) {
+        return 0;
+    }
+}
+
+class PoorClothes exten
