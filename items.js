@@ -40,4 +40,10 @@ class LeatherPants extends Armor {
 
 class LeatherSet extends Armor {
     constructor() {
-        super('Leather set', 5, 'Ok, maybe you are not so poor', 1
+        super('Leather set', 5, 'Ok, maybe you are not so poor', 1);
+    }
+}
+
+class RockPlate extends Armor {
+    constructor() {
+        super('Rock plate', 6, 
