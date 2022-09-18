@@ -33,4 +33,6 @@ class LeatherPants extends Armor {
     }
 
     onEquip(mainHero) {
-        
+        mainHero.gold >= 50 ? this.value += 3 : this.value;
+        mainHero.update();
+    }
