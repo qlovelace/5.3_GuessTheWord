@@ -36,3 +36,8 @@ class LeatherPants extends Armor {
         mainHero.gold >= 50 ? this.value += 3 : this.value;
         mainHero.update();
     }
+}
+
+class LeatherSet extends Armor {
+    constructor() {
+        super('Leather set', 5, 'Ok, maybe you are not so poor', 1
