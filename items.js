@@ -50,4 +50,9 @@ class RockPlate extends Armor {
     }
 
     onEquip(mainHero) {
-        
+        mainHero.enduranceBuff++;
+        mainHero.update();
+    }
+
+    onChange(mainHero) {
+        mainHero.end
