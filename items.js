@@ -46,4 +46,8 @@ class LeatherSet extends Armor {
 
 class RockPlate extends Armor {
     constructor() {
-        super('Rock plate', 6, 
+        super('Rock plate', 6, 'Haters gonna say - it is heavy', 1);
+    }
+
+    onEquip(mainHero) {
+        
