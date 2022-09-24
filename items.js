@@ -65,4 +65,10 @@ class CodeShirt extends Armor {
         super('Code shirt', 7, 'It is quit boring to make this descriptions.', 2);
     }
 
-    onEquip(mainHer
+    onEquip(mainHero) {
+        mainHero.intelligence += 15;
+        mainHero.update();
+    }
+
+    onChange(mainHero) {
+ 
