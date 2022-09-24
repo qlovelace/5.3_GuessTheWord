@@ -71,4 +71,9 @@ class CodeShirt extends Armor {
     }
 
     onChange(mainHero) {
- 
+        mainHero.intelligence -= 10;
+        mainHero.update();
+    }
+}
+
+class Cuirass ex
