@@ -55,4 +55,11 @@ class RockPlate extends Armor {
     }
 
     onChange(mainHero) {
-        mainHero.end
+        mainHero.enduranceBuff--;
+        mainHero.update();
+    }
+}
+
+class CodeShirt extends Armor {
+    constructor() {
+      
