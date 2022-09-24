@@ -76,4 +76,6 @@ class CodeShirt extends Armor {
     }
 }
 
-class Cuirass ex
+class Cuirass extends Armor {
+    constructor() {
+        super('Steel cuirass', 8, 'I really like it`s sound of ign
