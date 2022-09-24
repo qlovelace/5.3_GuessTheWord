@@ -62,4 +62,7 @@ class RockPlate extends Armor {
 
 class CodeShirt extends Armor {
     constructor() {
-      
+        super('Code shirt', 7, 'It is quit boring to make this descriptions.', 2);
+    }
+
+    onEquip(mainHer
