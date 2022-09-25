@@ -78,4 +78,10 @@ class CodeShirt extends Armor {
 
 class Cuirass extends Armor {
     constructor() {
-        super('Steel cuirass', 8, 'I really like it`s sound of ign
+        super('Steel cuirass', 8, 'I really like it`s sound of ignoring damage!', 2);
+    }
+}
+
+class DragonArmor extends Armor {
+    constructor() {
+        supe
