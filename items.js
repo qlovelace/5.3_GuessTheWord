@@ -84,4 +84,8 @@ class Cuirass extends Armor {
 
 class DragonArmor extends Armor {
     constructor() {
-        supe
+        super('Dragon`s armor', 10, 'Greenpeace is in fury!', 3);
+    }
+
+    onEquip(mainHero) {
+        mainHero.enduranc
