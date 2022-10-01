@@ -88,4 +88,11 @@ class DragonArmor extends Armor {
     }
 
     onEquip(mainHero) {
-        mainHero.enduranc
+        mainHero.enduranceBuff++;
+        mainHero.update();
+    }
+}
+
+class SpikedArmor extends Armor {
+    constructor() {
+  
