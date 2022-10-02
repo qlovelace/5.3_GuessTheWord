@@ -95,4 +95,8 @@ class DragonArmor extends Armor {
 
 class SpikedArmor extends Armor {
     constructor() {
+        super(`Spiked armor`, 8, `Come and hug me!`, 3);
+    }
+
+    onEquip(mainHero) {
   
