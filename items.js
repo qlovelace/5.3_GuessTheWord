@@ -103,4 +103,10 @@ class SpikedArmor extends Armor {
         mainHero.update();
     }
 
-    onChange(mai
+    onChange(mainHero) {
+        mainHero.attackBuff -= 2;
+        mainHero.update();
+    }
+}
+
+class LeftB
