@@ -109,4 +109,9 @@ class SpikedArmor extends Armor {
     }
 }
 
-class LeftB
+class LeftBoot extends Armor {
+    constructor() {
+        super(`LeftBoot`, 3, `Pair defends better`, 3);
+    }
+
+    on
