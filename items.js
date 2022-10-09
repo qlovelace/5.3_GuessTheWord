@@ -114,4 +114,10 @@ class LeftBoot extends Armor {
         super(`LeftBoot`, 3, `Pair defends better`, 3);
     }
 
-    on
+    onEquip(mainHero) {
+        mainHero.agilityBuff += 15;
+        mainHero.update();
+    }
+
+    onChange(mainHero) {
+      
