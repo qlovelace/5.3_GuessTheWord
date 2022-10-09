@@ -120,4 +120,11 @@ class LeftBoot extends Armor {
     }
 
     onChange(mainHero) {
-      
+        mainHero.agilityBuff -= 15;
+        mainHero.update();
+    }
+}
+
+
+class Weapon {
+    construct
