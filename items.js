@@ -127,4 +127,5 @@ class LeftBoot extends Armor {
 
 
 class Weapon {
-    construct
+    constructor(name, value, diceVal, diceCount, description, tier) {
+        this.name = name;
