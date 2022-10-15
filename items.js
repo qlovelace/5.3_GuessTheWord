@@ -132,4 +132,12 @@ class Weapon {
         this.value = value;
         this.diceVal = diceVal;
         this.diceCount = diceCount;
-        this.d
+        this.description = description;
+        this.tier = tier;
+    }
+
+    onEquip(mainHero) {
+        return 0;
+    }
+
+    onC
