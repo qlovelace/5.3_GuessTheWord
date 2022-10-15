@@ -151,4 +151,6 @@ class RustyDagger extends Weapon {
     }
 }
 
-class 
+class BrokenSword extends Weapon {
+    constructor() {
+        super('Broken sword', 0, 6, 1, 'Looks 
