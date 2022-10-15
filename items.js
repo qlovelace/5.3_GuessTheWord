@@ -147,4 +147,8 @@ class Weapon {
 
 class RustyDagger extends Weapon {
     constructor() {
-    
+        super('Rusty dagger', 0, 4, 1, 'Seems like it was lost a couple ages ago', 0);
+    }
+}
+
+class 
