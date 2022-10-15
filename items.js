@@ -140,4 +140,11 @@ class Weapon {
         return 0;
     }
 
-    onC
+    onChange(mainHero) {
+        return 0;
+    }
+}
+
+class RustyDagger extends Weapon {
+    constructor() {
+    
