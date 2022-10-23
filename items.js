@@ -157,4 +157,10 @@ class BrokenSword extends Weapon {
     }
 
     onEquip(mainHero) {
-        mainHero.agility >= 25 ? this.v
+        mainHero.agility >= 25 ? this.value += 3 : this.value++;
+        mainHero.update();
+    }
+}
+
+class DaddySword extends Weapon {
+    
