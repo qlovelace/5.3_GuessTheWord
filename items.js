@@ -153,4 +153,8 @@ class RustyDagger extends Weapon {
 
 class BrokenSword extends Weapon {
     constructor() {
-        super('Broken sword', 0, 6, 1, 'Looks 
+        super('Broken sword', 0, 6, 1, 'Looks like somebody chewed it', 1);
+    }
+
+    onEquip(mainHero) {
+        mainHero.agility >= 25 ? this.v
