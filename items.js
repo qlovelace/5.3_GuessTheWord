@@ -164,4 +164,10 @@ class BrokenSword extends Weapon {
 
 class DaddySword extends Weapon {
     constructor() {
-        super('Daddy`s sword +1', 1, 6, 1, 'At least you know, that it deals d
+        super('Daddy`s sword +1', 1, 6, 1, 'At least you know, that it deals damage', 1);
+    }
+}
+
+class Rock extends Weapon {
+    constructor() {
+        super('
