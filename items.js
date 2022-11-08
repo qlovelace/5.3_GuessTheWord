@@ -170,4 +170,8 @@ class DaddySword extends Weapon {
 
 class Rock extends Weapon {
     constructor() {
-        super('
+        super('Rock', 0, 4, 2, 'It helps you feel concentratedly', 1);
+    }
+
+    onEquip(mainHero) {
+        ma
