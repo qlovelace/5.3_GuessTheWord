@@ -174,4 +174,8 @@ class Rock extends Weapon {
     }
 
     onEquip(mainHero) {
-        ma
+        mainHero.intelligence += 5;
+        mainHero.update();
+    }
+
+    onChange(mainHero) {
