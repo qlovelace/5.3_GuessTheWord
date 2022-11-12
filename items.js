@@ -179,3 +179,10 @@ class Rock extends Weapon {
     }
 
     onChange(mainHero) {
+        mainHero.intelligence -= 5;
+        mainHero.update();
+    }
+}
+
+class BalancedSword extends Weapon {
+    cons
