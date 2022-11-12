@@ -185,4 +185,7 @@ class Rock extends Weapon {
 }
 
 class BalancedSword extends Weapon {
-    cons
+    constructor() {
+        super('Balanced sword', 3, 6, 1, 'Finally! Good weapon!', 2);
+    }
+}
