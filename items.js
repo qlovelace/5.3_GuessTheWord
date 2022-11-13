@@ -192,4 +192,7 @@ class BalancedSword extends Weapon {
 
 class HardMace extends Weapon {
     constructor() {
-        super('Hard mace', 2, 8, 1, 'It is
+        super('Hard mace', 2, 8, 1, 'It is quite heavy, but you can get on well with it.', 2);
+    }
+
+    onEquip(mainHero) {
