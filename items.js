@@ -196,3 +196,5 @@ class HardMace extends Weapon {
     }
 
     onEquip(mainHero) {
+        mainHero.endurance >= 20 ? mainHero.attackBuff++ : mainHero.attackBuff--;
+      
