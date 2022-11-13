@@ -189,3 +189,7 @@ class BalancedSword extends Weapon {
         super('Balanced sword', 3, 6, 1, 'Finally! Good weapon!', 2);
     }
 }
+
+class HardMace extends Weapon {
+    constructor() {
+        super('Hard mace', 2, 8, 1, 'It is
