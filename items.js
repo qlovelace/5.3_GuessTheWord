@@ -203,4 +203,5 @@ class HardMace extends Weapon {
 
 class BloodyHammer extends Weapon {
     constructor() {
-      
+        super('Bloody hammer', 0, 12, 1, 'You are proud with it. It killed someone!', 3);
+    }
