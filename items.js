@@ -205,3 +205,10 @@ class BloodyHammer extends Weapon {
     constructor() {
         super('Bloody hammer', 0, 12, 1, 'You are proud with it. It killed someone!', 3);
     }
+
+    onEquip(mainHero) {
+        mainHero.magic = spells[1];
+    }
+}
+
+class Slingsho
