@@ -211,4 +211,6 @@ class BloodyHammer extends Weapon {
     }
 }
 
-class Slingsho
+class Slingshot extends Weapon {
+    constructor() {
+        super(`Slingshot`, 0, 8, 1, `God bless here is so much stone!`, 3);
