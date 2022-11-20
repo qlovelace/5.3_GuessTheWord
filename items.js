@@ -223,4 +223,8 @@ class Slingshot extends Weapon {
 
 class WingedCrossbow extends Weapon {
     constructor() {
-        super(`Winged
+        super(`Winged crossbow`, 4, 8, 1, `Use instead of club`, 3);
+    }
+
+    onEquip(mainHero) {
+        mainHero.agility
