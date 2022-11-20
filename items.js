@@ -214,3 +214,7 @@ class BloodyHammer extends Weapon {
 class Slingshot extends Weapon {
     constructor() {
         super(`Slingshot`, 0, 8, 1, `God bless here is so much stone!`, 3);
+    }
+
+    onEquip(mainHero) {
+        mainHero.agility > 30 ? this.value += 5 : this.val
