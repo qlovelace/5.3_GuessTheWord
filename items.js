@@ -217,4 +217,10 @@ class Slingshot extends Weapon {
     }
 
     onEquip(mainHero) {
-        mainHero.agility > 30 ? this.value += 5 : this.val
+        mainHero.agility > 30 ? this.value += 5 : this.value = 0;
+    }
+}
+
+class WingedCrossbow extends Weapon {
+    constructor() {
+        super(`Winged
