@@ -227,4 +227,11 @@ class WingedCrossbow extends Weapon {
     }
 
     onEquip(mainHero) {
-        mainHero.agility
+        mainHero.agilityBuff -= 5;
+    }
+}
+
+
+class Magic {
+    constructor(name, cost, radius, description) {
+        this.c
