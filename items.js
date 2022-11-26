@@ -234,4 +234,7 @@ class WingedCrossbow extends Weapon {
 
 class Magic {
     constructor(name, cost, radius, description) {
-        this.c
+        this.cost = cost;
+        this.radius = radius;
+        this.description = description;
+        this.name = na
