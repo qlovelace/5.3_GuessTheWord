@@ -237,4 +237,12 @@ class Magic {
         this.cost = cost;
         this.radius = radius;
         this.description = description;
-        this.name = na
+        this.name = name;
+    }
+
+    keyHandler(keyCode) {
+        return null;
+    }
+
+    useSpell(scene) {
+        r
