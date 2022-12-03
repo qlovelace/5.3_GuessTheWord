@@ -245,4 +245,10 @@ class Magic {
     }
 
     useSpell(scene) {
-        r
+        return null;
+    }
+}
+
+class RandomWipeSpell extends Magic {
+    constructor() {
+        su
