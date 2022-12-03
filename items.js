@@ -255,4 +255,7 @@ class RandomWipeSpell extends Magic {
     }
 
     useSpell() {
-        let isFind = fals
+        let isFind = false;
+        let tries = 0;
+        if (mainHero.mp >= this.cost) {
+            while (tries < 
