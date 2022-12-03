@@ -258,4 +258,5 @@ class RandomWipeSpell extends Magic {
         let isFind = false;
         let tries = 0;
         if (mainHero.mp >= this.cost) {
-            while (tries < 
+            while (tries < game.objectsMap.length) {
+                let mobNum = Math.floor(Math.random() * (gam
