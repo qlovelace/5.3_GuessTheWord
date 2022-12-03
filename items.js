@@ -251,4 +251,8 @@ class Magic {
 
 class RandomWipeSpell extends Magic {
     constructor() {
-        su
+        super("Wipe spell", 2, 0, "This spell kills random beast");
+    }
+
+    useSpell() {
+        let isFind = fals
