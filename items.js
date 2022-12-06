@@ -262,4 +262,6 @@ class RandomWipeSpell extends Magic {
                 let mobNum = Math.floor(Math.random() * (game.objectsMap.length - 1)) + 1;
                 if (!game.objectsMap[mobNum].isDead) {
                     game.objectsMap[mobNum].isDead = 1;
-                    game.pushMessage(`(You hear te
+                    game.pushMessage(`(You hear terrifying howl){red}`);
+                    mainHero.mp -= this.cost;
+                    return;
