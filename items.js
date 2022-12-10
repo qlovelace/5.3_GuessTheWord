@@ -268,4 +268,6 @@ class RandomWipeSpell extends Magic {
                 } else
                     tries++;
             }
-            game.pushMess
+            game.pushMessage(`(Spell did not work!){white}`);
+        } else
+            game.pushMessage
