@@ -270,4 +270,9 @@ class RandomWipeSpell extends Magic {
             }
             game.pushMessage(`(Spell did not work!){white}`);
         } else
-            game.pushMessage
+            game.pushMessage(`(You do not have enough mana!){blue}`);
+        return super.useSpell();
+    }
+}
+
+class EnemyCoun
