@@ -265,3 +265,7 @@ class RandomWipeSpell extends Magic {
                     game.pushMessage(`(You hear terrifying howl){red}`);
                     mainHero.mp -= this.cost;
                     return;
+                } else
+                    tries++;
+            }
+            game.pushMess
