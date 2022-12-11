@@ -277,4 +277,9 @@ class RandomWipeSpell extends Magic {
 
 class EnemyCountSpell extends Magic {
     constructor() {
-        super("Magic compass", 1,
+        super("Magic compass", 1, 0, "Just to be sure you killed everyone!");
+    }
+
+    useSpell() {
+        let counter = 0;
+  
