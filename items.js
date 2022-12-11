@@ -275,4 +275,6 @@ class RandomWipeSpell extends Magic {
     }
 }
 
-class EnemyCoun
+class EnemyCountSpell extends Magic {
+    constructor() {
+        super("Magic compass", 1,
