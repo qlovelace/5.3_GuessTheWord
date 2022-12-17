@@ -282,4 +282,5 @@ class EnemyCountSpell extends Magic {
 
     useSpell() {
         let counter = 0;
-  
+        if (mainHero.mp >= this.cost) {
+            for (let i = 1; i < game.objectsMap.length;
