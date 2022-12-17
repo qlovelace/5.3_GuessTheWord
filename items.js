@@ -286,4 +286,6 @@ class EnemyCountSpell extends Magic {
             for (let i = 1; i < game.objectsMap.length; i++)
                 if (!game.objectsMap[i].isDead) counter++;
             game.pushMessage(`(There are ){white}(${counter}){red} ( enemies here){white}`);
-            ma
+            mainHero.mp -= this.cost;
+        } else
+            game.pushMessage(`(You do not have enough mana
