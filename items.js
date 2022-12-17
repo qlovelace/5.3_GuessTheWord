@@ -288,4 +288,10 @@ class EnemyCountSpell extends Magic {
             game.pushMessage(`(There are ){white}(${counter}){red} ( enemies here){white}`);
             mainHero.mp -= this.cost;
         } else
-            game.pushMessage(`(You do not have enough mana
+            game.pushMessage(`(You do not have enough mana!){blue}`);
+        return super.useSpell();
+    }
+}
+
+class MidasSpell extends Magic {
+    constru
