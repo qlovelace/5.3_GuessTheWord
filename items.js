@@ -294,4 +294,9 @@ class EnemyCountSpell extends Magic {
 }
 
 class MidasSpell extends Magic {
-    constru
+    constructor() {
+        super("Midas ring", 3, 0, "Gold >> life");
+    }
+
+    useSpell() {
+        if (
