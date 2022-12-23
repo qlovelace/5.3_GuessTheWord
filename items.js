@@ -301,4 +301,7 @@ class MidasSpell extends Magic {
     useSpell() {
         if (mainHero.mp >= this.cost && mainHero.hp > 2) {
             let gold = rollDice(20, 1);
-        
+            mainHero.mp -= this.cost;
+            mainHero.hp -= 2;
+            mainHero.gold += gold;
+      
