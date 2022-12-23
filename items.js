@@ -304,4 +304,4 @@ class MidasSpell extends Magic {
             mainHero.mp -= this.cost;
             mainHero.hp -= 2;
             mainHero.gold += gold;
-      
+            game.pushMessage(`(You should be mad to hurt yourself for ){white} (${gold} coins){yell
