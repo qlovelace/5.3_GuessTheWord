@@ -313,4 +313,8 @@ class MidasSpell extends Magic {
 
 class MindVision extends Magic {
     constructor() {
-        super("Mind Vi
+        super("Mind Vision", 1, 0, "Yes, you think absolutely right");
+    }
+
+    useSpell() {
+        if (mainHero.mp >
