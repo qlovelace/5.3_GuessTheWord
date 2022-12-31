@@ -317,4 +317,7 @@ class MindVision extends Magic {
     }
 
     useSpell() {
-        if (mainHero.mp >
+        if (mainHero.mp >= this.cost) {
+            let closest = null;
+            let dest = 1e100;
+            game.obje
