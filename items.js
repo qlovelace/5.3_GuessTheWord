@@ -307,4 +307,10 @@ class MidasSpell extends Magic {
             game.pushMessage(`(You should be mad to hurt yourself for ){white} (${gold} coins){yellow}`);
         } else
             game.pushMessage(`(You cannot do that!){red}`);
-        return sup
+        return super.useSpell();
+    }
+}
+
+class MindVision extends Magic {
+    constructor() {
+        super("Mind Vi
