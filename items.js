@@ -320,4 +320,5 @@ class MindVision extends Magic {
         if (mainHero.mp >= this.cost) {
             let closest = null;
             let dest = 1e100;
-            game.obje
+            game.objectsMap.forEach((item, i, arr) => {
+                let d = (mainHero.x - item.x) ** 2 + (mainHero.y -
