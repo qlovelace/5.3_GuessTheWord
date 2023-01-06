@@ -329,4 +329,5 @@ class MindVision extends Magic {
             });
 
             if (closest != null) {
-                game.pushMessage(`(I feel somebody with:){white} ( ${closest.s
+                game.pushMessage(`(I feel somebody with:){white} ( ${closest.strength}){red}( strength ){white}` +
+                    `(and ){white}(${closest.agility}){green}
