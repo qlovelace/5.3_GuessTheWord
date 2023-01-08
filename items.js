@@ -334,4 +334,7 @@ class MindVision extends Magic {
                         ` You will strike first` : ` You will strike second`}){green}`);
             } else
                 game.pushMessage(`(You are a weak sorcerer, or everyone dead){white}`);
-            mainHero.mp -= thi
+            mainHero.mp -= this.cost;
+        } else
+            game.pushMessage(`(You do not have enough mana!){blue}`);
+        return 
