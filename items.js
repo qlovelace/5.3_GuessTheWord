@@ -333,4 +333,5 @@ class MindVision extends Magic {
                     `(and ){white}(${closest.agility}){green}( agility){white} (${closest.initiative > mainHero.initiative ?
                         ` You will strike first` : ` You will strike second`}){green}`);
             } else
-               
+                game.pushMessage(`(You are a weak sorcerer, or everyone dead){white}`);
+            mainHero.mp -= thi
