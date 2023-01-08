@@ -337,4 +337,10 @@ class MindVision extends Magic {
             mainHero.mp -= this.cost;
         } else
             game.pushMessage(`(You do not have enough mana!){blue}`);
-        return 
+        return super.useSpell();
+    }
+}
+
+class EvilPlay extends Magic {
+    constructor() {
+        super("Go
