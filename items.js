@@ -343,4 +343,8 @@ class MindVision extends Magic {
 
 class EvilPlay extends Magic {
     constructor() {
-        super("Go
+        super("God figure", 3, 0, "Who knows, what would it bring..");
+    }
+
+    useSpell() {
+        if (mainHero.
