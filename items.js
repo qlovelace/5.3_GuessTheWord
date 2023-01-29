@@ -352,4 +352,6 @@ class EvilPlay extends Magic {
             return;
         }
         let newHP, newMP, newAtt, newInit;
-        newHP = Math.floor(Math.
+        newHP = Math.floor(Math.random() * 7) - 1;
+        newMP = Math.floor(Math.random() * 7) - 1;
+        newAtt = Math.fl
