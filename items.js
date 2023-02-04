@@ -364,4 +364,10 @@ class EvilPlay extends Magic {
         mainHero.initiative += newInit;
         mainHero.update();
         mainHero.mp -= this.cost;
-        return super.useSpel
+        return super.useSpell();
+    }
+}
+
+class Fireball extends Magic {
+    constructor() {
+        super("Fire ball", 2, 0,
