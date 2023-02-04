@@ -359,4 +359,7 @@ class EvilPlay extends Magic {
         game.pushMessage(`(Evil powers gave you ){white} (${newHP} endur){red}( ${newMP} int){blue}( ${newAtt} attack){yellow}` +
             `( ${newInit} initiative){violet}`);
         mainHero.enduranceBuff += newHP;
-     
+        mainHero.intBuff += newMP;
+        mainHero.attackBuff += newAtt;
+        mainHero.initiative += newInit;
+        mainHer
