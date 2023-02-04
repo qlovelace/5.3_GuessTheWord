@@ -362,4 +362,6 @@ class EvilPlay extends Magic {
         mainHero.intBuff += newMP;
         mainHero.attackBuff += newAtt;
         mainHero.initiative += newInit;
-        mainHer
+        mainHero.update();
+        mainHero.mp -= this.cost;
+        return super.useSpel
