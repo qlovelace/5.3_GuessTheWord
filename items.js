@@ -375,4 +375,6 @@ class Fireball extends Magic {
 
     useSpell() {
         if (mainHero.mp < this.cost) {
-         
+            game.pushMessage(`(Not enough mana!){blue}`);
+            return super.useSpell();
+     
