@@ -370,4 +370,9 @@ class EvilPlay extends Magic {
 
 class Fireball extends Magic {
     constructor() {
-        super("Fire ball", 2, 0,
+        super("Fire ball", 2, 0, "And fire comes through walls");
+    }
+
+    useSpell() {
+        if (mainHero.mp < this.cost) {
+         
