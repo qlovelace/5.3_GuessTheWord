@@ -385,4 +385,6 @@ class Fireball extends Magic {
 
     keyHandler(keyCode) {
         console.log("Fireball ", keyCode);
-        sw
+        switch (keyCode) {
+            case 38:  //arrow up
+                game.pushMessage(`(Fire
