@@ -380,4 +380,9 @@ class Fireball extends Magic {
         }
         game.pushMessage(`(Choose direction for attack){white}`);
         mainHero.update();
-        retu
+        return this;
+    }
+
+    keyHandler(keyCode) {
+        console.log("Fireball ", keyCode);
+        sw
