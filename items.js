@@ -387,4 +387,6 @@ class Fireball extends Magic {
         console.log("Fireball ", keyCode);
         switch (keyCode) {
             case 38:  //arrow up
-                game.pushMessage(`(Fire
+                game.pushMessage(`(Fireball flew away){yellow}`);
+                game.objectsMap.forEach((item, i, arr) => {
+    
