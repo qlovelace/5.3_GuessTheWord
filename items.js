@@ -391,4 +391,6 @@ class Fireball extends Magic {
                 game.objectsMap.forEach((item, i, arr) => {
                     if (item !== mainHero && item.x === mainHero.x && item.y < mainHero.y) {
                         item.hp -= Math.floor(mainHero.intelligence / 10);
-              
+                        item.hp <= 0 ? (() => {
+                                item.isDead = true;
+           
