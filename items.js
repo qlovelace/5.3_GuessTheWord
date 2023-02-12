@@ -393,4 +393,5 @@ class Fireball extends Magic {
                         item.hp -= Math.floor(mainHero.intelligence / 10);
                         item.hp <= 0 ? (() => {
                                 item.isDead = true;
-           
+                                game.pushMessage(`(You hear terrifying howl){red}`)
+                            })() :
