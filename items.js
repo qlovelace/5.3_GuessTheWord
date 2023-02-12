@@ -389,4 +389,6 @@ class Fireball extends Magic {
             case 38:  //arrow up
                 game.pushMessage(`(Fireball flew away){yellow}`);
                 game.objectsMap.forEach((item, i, arr) => {
-                    if (item !== mainHero && item.x === mainHero.x && item.y < mainHero.y) 
+                    if (item !== mainHero && item.x === mainHero.x && item.y < mainHero.y) {
+                        item.hp -= Math.floor(mainHero.intelligence / 10);
+              
