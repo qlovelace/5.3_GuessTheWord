@@ -409,4 +409,7 @@ class Fireball extends Magic {
                                 game.pushMessage(`(You hear terrifying howl){red}`)
                             })() :
                             game.pushMessage(`(You hit someone){red}`);
-   
+                    }
+                });
+                break;
+            case 37: // ar
