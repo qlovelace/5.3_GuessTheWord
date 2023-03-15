@@ -421,4 +421,8 @@ class Fireball extends Magic {
                                 item.isDead = true;
                                 game.pushMessage(`(You hear terrifying howl){red}`)
                             })() :
-                            game.pushMessage(`(You
+                            game.pushMessage(`(You hit someone){red}`);
+                    }
+                });
+                break;
+            case 39: // ar
