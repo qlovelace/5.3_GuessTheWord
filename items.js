@@ -425,4 +425,6 @@ class Fireball extends Magic {
                     }
                 });
                 break;
-            case 39: // ar
+            case 39: // arrow right
+                game.pushMessage(`(Fireball flew away){yellow}`);
+           
