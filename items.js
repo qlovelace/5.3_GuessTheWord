@@ -442,4 +442,12 @@ class Fireball extends Magic {
             default:
                 return null;
         }
-        ma
+        mainHero.mp -= this.cost;
+        return null;
+    }
+}
+
+
+weapons = [
+    new RustyDagger(),
+    new Bro
