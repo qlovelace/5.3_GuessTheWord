@@ -438,3 +438,8 @@ class Fireball extends Magic {
                     }
                 });
                 break;
+            case 27: // Esc
+            default:
+                return null;
+        }
+        ma
