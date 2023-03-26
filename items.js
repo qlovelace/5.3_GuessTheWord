@@ -450,4 +450,9 @@ class Fireball extends Magic {
 
 weapons = [
     new RustyDagger(),
-    new Bro
+    new BrokenSword(),
+    new DaddySword(),
+    new Rock(),
+    new BalancedSword(),
+    new HardMace(),
+    
