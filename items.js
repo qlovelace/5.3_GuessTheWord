@@ -455,4 +455,10 @@ weapons = [
     new Rock(),
     new BalancedSword(),
     new HardMace(),
-    
+    new BloodyHammer(),
+    new Slingshot(),
+    new WingedCrossbow(),
+];
+
+armor = [
+    new PoorClot
