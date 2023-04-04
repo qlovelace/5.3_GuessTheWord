@@ -461,4 +461,8 @@ weapons = [
 ];
 
 armor = [
-    new PoorClot
+    new PoorClothes(),
+    new LeatherPants(),
+    new LeatherSet(),
+    new RockPlate(),
+    new CodeShirt
