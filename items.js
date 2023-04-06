@@ -465,4 +465,11 @@ armor = [
     new LeatherPants(),
     new LeatherSet(),
     new RockPlate(),
-    new CodeShirt
+    new CodeShirt(),
+    new Cuirass(),
+    new DragonArmor(),
+    new SpikedArmor(),
+    new LeftBoot(),
+];
+
+spel
