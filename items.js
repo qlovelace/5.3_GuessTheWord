@@ -472,4 +472,9 @@ armor = [
     new LeftBoot(),
 ];
 
-spel
+spells = [
+    new EnemyCountSpell(),
+    new RandomWipeSpell(),
+    new MidasSpell(),
+    new MindVision(),
+    n
