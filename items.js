@@ -477,4 +477,8 @@ spells = [
     new RandomWipeSpell(),
     new MidasSpell(),
     new MindVision(),
-    n
+    new EvilPlay(),
+    new Fireball(),
+];
+
+maxTier = weapons[weapons.length - 1].tier;
