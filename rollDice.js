@@ -219,3 +219,33 @@ function mobCloseBattle(first, second) {
             })() :
             (() => {
                 damage = 0;
+
+            })();
+        if (second.hp <= 0) {
+            game.pushMessage(`(You hear terrifying howl){red}`);
+            first.gold += second.gold;
+            second.isDead = 1;
+            return;
+        }
+    }
+    if (second.agility / 10 + rollDice(6, 2) > 6 + first.agility / 10) {
+        let damage = rollDice(second.weapon.diceVal, second.weapon.diceCount) - first.armor.value + second.attack;
+        let crit = (rollDice(20, 1) > 18) && (((second.weapon.diceVal - 1) * second.weapon.diceCount) <= damage);
+        crit ? damage += damage : damage;
+        damage > 0 ? (() => {
+                first.hp -= damage;
+
+            })() :
+            (() => {
+                damage = 0;
+
+            })();
+        if (first.hp <= 0) {
+            game.pushMessage(`(You hear terrifying howl){red}`);
+            second.gold += first.gold;
+            first.isDead = 1;
+            return;
+        }
+    }
+}
+
