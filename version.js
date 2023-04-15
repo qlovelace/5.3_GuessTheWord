@@ -4,4 +4,8 @@ const VERSION = Object.freeze({
     MICRO: 0,
     getId: function() {
         return this.MAJOR*37**2 + this.MINOR*37 + this.MICRO;
-   
+    },
+    toString: function() {
+        return `v${this.MAJOR}.${this.MINOR}.${this.MICRO}`;
+    }
+});
